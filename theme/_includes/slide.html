@@ -1,9 +1,9 @@
 <!-- slide -->
 <section class="{{ slide.class }}"
 		
-	{% if slide.class == 'title-slide' %}
+	{% if forloop.index == 1 %}
 		id="{{ slide.section }}"
-		data-background="{{ site.course_images }}/theme/theme-tile.svg" 
+		data-background="{{ site.baseurl }}/theme/assets/images/triangle-bg-tile.png" 
 		data-background-color="{{ site.themecolor }}"
 		data-background-size="200px" 
 		data-background-repeat="repeat"
