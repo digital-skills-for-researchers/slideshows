@@ -1,0 +1,41 @@
+name: Digital Research Slideshows
+
+baseurl: "/slideshows"
+theme_assets: "/slideshows/theme/assets"
+theme_images: "/slideshows/theme/assets/images"
+course_images: "/slideshows/media/images"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  enable_coderay: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+# Where things are
+source:       .
+destination:  ./_site
+layouts_dir:  ./theme/_layouts
+includes_dir: ./theme/_includes
+sass:
+    sass_dir: ./theme/_sass
+
+# custom collections
+collections:
+  modules:
+    output: true
+    layout: module
+
+
+# theme
+themecolor: "#9b3a00"
+
+# keep the built site tidy, only include files we need for publishing
+exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md", "*.sublime-project", "*.sublime-workspace"]

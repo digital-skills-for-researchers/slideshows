@@ -1,0 +1,18 @@
+{
+	"course": "{{ page.course }}",
+	"title": "{{ page.title }}",
+	"tagline": "{{ page.tagline }}",
+
+	"chapters": [
+
+		{% for chapter in page.chapters %}
+			{
+			"name": "{{ chapter.name }}",
+			"title": "{{ chapter.title }}"
+			}
+			{% if forloop.last == false %},{% endif %}
+		{% endfor %}
+
+	]
+
+}

@@ -1,0 +1,27 @@
+<!-- slide -->
+<section class="{{ slide.class }}"
+		
+	{% if slide.class == 'title-slide' %}
+		id="{{ slide.section }}"
+		data-background="{{ site.course_images }}/theme/theme-tile.svg" 
+		data-background-color="{{ site.themecolor }}"
+		data-background-size="200px" 
+		data-background-repeat="repeat"
+	{% else %}
+		id="{{ slide.title }}"
+	{% endif %}
+	>
+		
+{{ slide.content | 
+		replace: '[[BASE_URL]]', site.baseurl | 
+		replace: '[[THEME_IMAGES]]', site.theme_images | 
+		replace: '[[COURSE_IMAGES]]', site.course_images | 
+		markdownify }}
+
+<aside class="notes">
+{{ slide.notes | 
+		replace: '[[BASE_URL]]', site.baseurl |
+		markdownify }}
+</aside>
+
+</section>
