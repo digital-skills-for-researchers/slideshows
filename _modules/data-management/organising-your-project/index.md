@@ -1,6 +1,6 @@
 ---
 layout: slideshow
-title: Introduction to Data Management
+title: Organising Your Project
 slides:
 
 
@@ -105,7 +105,7 @@ slides:
 
         Different data files are easily distinguishable
 
-        A consistent strategy prevents confusion when multiple pep le are working on a project
+        A consistent strategy prevents confusion when multiple people le are working on a project
 
         Things are easy to find
 
@@ -113,6 +113,69 @@ slides:
 
         Document your strategy
 
+
+
+    - content: |
+
+        # File Formats
+
+
+
+    - content: |
+
+        # File Formats
+
+
+
+    - content: |
+
+        # File Formats
+
+        - Open. Standardised. In wide use. Easy to
+        datamine, transform, or re-cast.
+
+        - What software do you expect to use? Are
+        you collaborating or sharing with others?
+
+        - Domain specific standards?
+
+        -Consider fidelity or quality issues if using
+        compression.
+
+
+    - content: |
+
+        # Tidy Data
+
+
+
+
+    - content: |
+
+    # Spreadsheet Problems
+
+
+
+
+
+    - content: |
+
+        # Spreadsheet Problems
+
+
+
+
+    - content: |
+
+        # RDBMS
+
+        Queries (SQL)
+
+        Enforce integrity or constraints
+
+        Collaboration, access control
+
+        mySQL, PostgreSQL, SQLite
 
 ---
 

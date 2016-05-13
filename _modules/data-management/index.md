@@ -13,7 +13,13 @@ slideshows:
       title: Organising Your Project
       description: None
 
+    - name: meta-data
+      title: Meta Data
+      description: None
 
+    - name: security-protection-privacy
+      title: Secutiry, Privacy Protection
+      description: None
 
 ---
 
