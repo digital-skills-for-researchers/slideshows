@@ -1,4 +1,4 @@
-layout: module
+gitlayout: module
 title: Introduction to the command line
 module: shell
 
