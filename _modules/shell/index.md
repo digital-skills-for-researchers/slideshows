@@ -1,7 +1,6 @@
----
 layout: module
-title: Data Management
-module: data-management
+title: Introduction to the command line
+module: shell
 
 slideshows:
 
