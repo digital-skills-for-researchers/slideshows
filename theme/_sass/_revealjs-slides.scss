@@ -1,0 +1,46 @@
+.reveal .slides {
+
+	font-size: 100%;
+
+	/*
+	All headings in slideshows should use the
+	condensed version of Roboto
+	*/
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Roboto Condensed";
+		font-weight: bold;
+	}
+
+	/*
+	All unordered lists should have margins removed
+	*/
+	ul {
+		li {
+			list-style-type: disc;
+		}
+	}
+
+	h1 {
+		font-size: 250%;
+	}
+
+	h2 {
+		font-size: 180%;
+	}
+
+	h3 {
+		font-size: 150%;
+	}
+
+
+	/*
+	A slide shich uses left-aligned text rather
+	than the default center-aligned
+	*/
+	.left-aligned {
+		text-align: left;
+		padding: 0 10%;
+	}
+
+
+}

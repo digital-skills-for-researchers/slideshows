@@ -16,15 +16,16 @@ slides:
 
     - content: |
 
-        # Hierarchies
+        ## Hierarchies
 
 
 
 
 
-    - content: |
+    - class: left-aligned
+      content: |
 
-        # Hierarchies - Tips
+        ## Hierarchies - Tips
 
         * Follow conventions from other host projects or communities if they exist
 
@@ -33,13 +34,16 @@ slides:
         * Dont let folders get too big, or too deep
 
         * Avoid using the same name for subfolders (or files in different subfolders)
+    
+
+      
 
 
 
+    - class: left-aligned
+      content: |
 
-    - content: |
-
-        # Naming Files and Folders
+        ## Naming Files and Folders
 
         * Project/grant name/number
 
@@ -55,9 +59,10 @@ slides:
 
 
 
-    - content: |
+    - class: left-aligned
+      content: |
 
-        # Filename Schemes
+        ## Filename Schemes
 
         <span style="color:grey">[investigator]-[method]-[specimen]-[yyymmdd].ext</span>
         cm-lcms-8887-20160126.dat
