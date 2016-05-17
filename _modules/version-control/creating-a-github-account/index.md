@@ -3,9 +3,7 @@ layout: slideshow
 title: Creating a GitHub Account
 slides:
 
-    - class: title-slide
-
-      content: |
+    - content: |
 
         # Creating a GitHub Account
         _A step by step guide_
