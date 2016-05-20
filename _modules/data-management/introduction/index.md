@@ -7,14 +7,14 @@ slides:
 
         # Data Management
 
-        ## Tame your research data! 
+        Tame your research data!
 
 
     - content: |
         
         ## Data Sharing and Management Snafu in 3 Short Acts.
 
-        <iframe width="480" height="360" src="http://www.youtube.com/embed/N2zK3sAtr-4" frameborder="0"> </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N2zK3sAtr-4" frameborder="0" allowfullscreen></iframe>
 
         _NYU Health Sciences Library_
 
@@ -28,9 +28,10 @@ slides:
 
 
 
-    - content: |
+    - class: left-aligned
+      content: |
 
-        # Learning Objectives
+        ## Learning Objectives
 
         - Awareness of the research data landscape
 
@@ -47,16 +48,27 @@ slides:
 
 
 
-    - content: |
+    - class: left-aligned
+      background-image: images/socialize.svg
+      background-size: 30%
+      background-position: 70%
+      content: |
 
-        # Hi There!
+        ## Hi There!
 
-        ## Have you ever lost data?
+        ### Have you ever lost data?
 
-        ## How did it happen 
+        ### How did it happen?
 
-        ## Did you fix it?
+        ### Did you fix it?
 
+      cc:
+        - title: socialize
+          licence: CC-BY
+          author: Konrad Michalik
+          author-url: https://thenounproject.com/konradmichalik/
+          source: Noun Project
+          source-url: https://thenounproject.com/konradmichalik/uploads/?i=62507
 
 
     - content: |

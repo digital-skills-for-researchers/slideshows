@@ -5,6 +5,7 @@ module: version-control
 
 slideshows:
 
+<<<<<<< HEAD
     - name: introduction
       title: Introduction
       description: None
@@ -28,3 +29,19 @@ slideshows:
 These slideshows cover some concepts around the popular version control system Git and the repository hosting service Github. The subject matter of these slideshows supports the Version Control module in the course.
 
 ## Slideshows
+=======
+
+
+---
+
+# Project Management
+
+Description TODO
+
+## Slideshows
+
+_no slideshows yet_
+
+
+
+>>>>>>> 1712bcd5ee5f71262f632911a331574d2f160fda

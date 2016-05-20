@@ -11,6 +11,7 @@ $theme-color: {{site.themecolor}};
 // other files to include
 @import 'revealjs-theme';
 @import 'revealjs-customisation';
+@import 'revealjs-slides';
 
 @import 'typography';
 @import 'layout';
