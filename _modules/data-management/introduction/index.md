@@ -71,37 +71,130 @@ slides:
           source-url: https://thenounproject.com/konradmichalik/uploads/?i=62507
 
 
-    - content: |
+    - class: left-aligned
+      background-image: images/what_is_data.jpg
+      background-size: 30%
+      background-position: 70%
+      content: |
 
         # What is data?
 
 
 
-    - content: |
+      cc:
+        - title: 逼格
+          licence: 
+          author: 
+          author-url: 
+          source: tretars
+          source-url: www.tretars.com
+
+
+    - class: left-aligned
+      content: |
 
         ## What is your research topic?
  
         ## What kinds of data will you deal with?
 
+        <img style="float: centre;" src="images/what_kind_of_data.jpg">
+      cc:
+        - title: 
+          licence: CC-BY
+          author: iconsmind 
+          author-url: https://thenounproject.com/imicons/
+          source: Noun Project
+          source-url: https://thenounproject.com/
 
-    - content: |
+      
+
+
+     
+
+    - class: left-aligned
+      background-image: images/no_accompanying_data.jpg
+      background-size: 100
+      background-position: 50%
+      content: |
+
 
         ## 1953 - Watson and Crick
 
-        ## No accompanying data!        
+        ## No accompanying data! 
+
+      cc:
+        - title: socialize
+          licence: CC-BY
+          author: Science Museum London
+          author-url: https://www.flickr.com/photos/sciencemuseum
+          source: Science Museum London
+          source-url: https://www.flickr.com/photos/sciencemuseum
 
 
-    - content: |
 
-         ## 2010 - 1000 Genomes <br> 4.9 Terabases of sequences 
+
+
+
+
+
+
+
+    - class: right-aligned
+      background-image: images/genomes.jpg
+      background-size: 100
+      background-position: 50%
+      content: |
+
+
+        ## 2010 - 1000 Genomes <br> 4.9 Terabases of sequences 
+
+        ## No accompanying data! 
+
+      cc:
+        - title: socialize
+          licence: CC-BY
+          author: Jer Thorp
+          author-url: https://about.me/jerthorp
+          source: Flickr
+          source-url: https://www.flickr.com/photos/blprnt/
+
+
 
     - content: |
 
         ## Getting good at managing data is going to matter to your research career!
 
-    - content: |
+
+
+
+
+
+
+
+
+
+
+    - class: left-aligned
+      background-image: images/why_manage_your_data.jpg
+      background-size: 30%
+      background-position: 80%
+      content: |
+
 
         # Why manage your data?
+
+      cc:
+        - title: socialize
+          licence: CC-BY
+          author: Kevin Augustine LO, João Proença
+          author-url: https://thenounproject.com/kevinlao.lo/, https://thenounproject.com/proenca.joao/
+          source: 
+          source-url: 
+
+
+    - content: |
+
+        ## Why manage your data?
 
 
     - content: |
