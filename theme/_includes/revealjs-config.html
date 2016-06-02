@@ -3,9 +3,14 @@
 
 <script>
 
-	// Full list of configuration options available here:
-	// https://github.com/hakimel/reveal.js#configuration
-	Reveal.initialize({
+	/*
+	config options to use when creating a reveal slideshow
+	*/
+	var revealConfig = {
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+
 		controls: true,
 		progress: true,
 		history: false,
@@ -30,30 +35,29 @@
 			{ src: '{{ site.baseurl }}/theme/assets/submodules/sidenotes/libs/js.cookie.js' }
 			/*{ src: '{{ site.baseurl }}/assets/submodules/prism/prism.js', callback: function() { Prism.highlightAll() }}*/
 		]
-	});
-    
-    function checkNotesState() {
+	};
 
-	    // show the notes on page load if notesByDefault has been 
-	    // set to true in the page's front matter.
-	    {% if page.notesByDefault %}
-	      var notesByDefault = {{ page.notesByDefault }};
-	    {% else %}
-	      var notesByDefault = false;
-	    {% endif %}
 
-	    if(notesByDefault == true) {
-	    	Sidenotes.showNotes();
-	    }
+	/*
+	start the reveal slideshow by initialising it
+	*/
+	function startReveal() {
+		
+		Reveal.initialize(revealConfig);
+
+		Reveal.addEventListener( 'slidechanged', function( event ) {
+			slide = $(event.currentSlide);
+			if(slide.hasClass('fullscreen')) {
+				slide.css('zoom', 1 / Reveal.getScale());
+				slide.children().css('zoom', Reveal.getScale());
+			}
+		});
 	}
 
-	Reveal.addEventListener( 'slidechanged', function( event ) {
-		slide = $(event.currentSlide);
-		if(slide.hasClass('fullscreen')) {
-			slide.css('zoom', 1 / Reveal.getScale());
-			slide.children().css('zoom', Reveal.getScale());
-		}
-	});
-		
+
+	//$('.slideshow').css('height', 'auto').addClass('container');
+	//var revealDiv = $('.reveal').removeClass('reveal');
+	startReveal();
+	
 
 </script>
