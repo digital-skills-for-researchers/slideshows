@@ -39,11 +39,16 @@
 	*/
 	.left-aligned {
 		text-align: left;
-		padding: 0 10%;
 	}
 	.right-aligned {
 		text-align: right;
-		padding: 0 10%;
+	}
+	.center-aligned {
+		text-align: center;
 	}
 
+	section.left-aligned,
+	section.right-aligned {
+		padding: 0 10%;
+	}
 }

@@ -3,7 +3,11 @@ layout: slideshow
 title: Introduction to Data Management
 slides:
 
-    - content: |
+    - class: center-aligned
+      background-image: images/intro_background.png
+      background-size: 30%
+      background-position: 70%
+      content: |
 
         # Data Management
 
@@ -90,21 +94,26 @@ slides:
           source-url: www.tretars.com
 
 
-    - class: left-aligned
-      content: |
-
-        ## What is your research topic?
- 
-        ## What kinds of data will you deal with?
-
-        <img style="float: centre;" src="images/what_kind_of_data.jpg">
+    - class: center-aligned
+      background-image: images/what_kind_of_data.jpg
+      background-size: 15%
+      background-position: bottom      
       cc:
         - title: 
           licence: CC-BY
           author: iconsmind 
           author-url: https://thenounproject.com/imicons/
           source: Noun Project
-          source-url: https://thenounproject.com/
+          source-url: https://thenounproject.com/      
+      content: |
+
+        ## What is your research topic?
+ 
+        ## What kinds of data will you deal with?
+
+        
+        
+
 
       
 
@@ -228,4 +237,3 @@ slides:
 
 ---
 
-TEST

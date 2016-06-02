@@ -11,14 +11,12 @@ slides:
         Clear - Concise - Consistent
 
 
-
-
-
-    - content: |
-
+    - class: left-aligned
+      background-image: images/heirarchies.jpg
+      background-size: 15%
+      background-position: 50%
+      content: |
         ## Hierarchies
-
-
 
 
 
@@ -40,7 +38,13 @@ slides:
 
 
 
+
+
+
     - class: left-aligned
+      background-image: images/name_badge.png
+      background-size: 15%
+      background-position: 50%
       content: |
 
         ## Naming Files and Folders
@@ -75,8 +79,11 @@ slides:
 
 
 
-
-    - content: |
+    - class: right-aligned
+      background-image: images/version_control_phd_comics.png
+      background-size: 15%
+      background-position: 50%
+      content: |
 
         # Version Control
 
@@ -96,9 +103,13 @@ slides:
 
 
 
-    - content: |
+    - class: center-aligned
+      background-image: images/hammer.png
+      background-size: 40%
+      background-position: 50%
+      content: |
 
-        # HAMMER PICTURE
+
 
 
 
@@ -120,15 +131,25 @@ slides:
 
 
 
-    - content: |
+    - class: center-aligned
+      background-image: images/file_formats_1.png
+      background-size: 40%
+      background-position: 60%
+      content: |
+        ## File Formats
 
-        # File Formats
 
 
 
-    - content: |
 
-        # File Formats
+    - class: center-aligned
+      background-image: images/file_formats_2.png
+      background-size: 40%
+      background-position: 60%
+      content: |
+        ## File Formats
+
+
 
 
 
@@ -148,24 +169,32 @@ slides:
         compression.
 
 
-    - content: |
-
-        # Tidy Data
-
-
-
-
-    - content: |
-
-    # Spreadsheet Problems
+    - class: center-aligned
+      background-image: images/tidy_data.png
+      background-size: 40%
+      background-position: 60%
+      content: |
+        ## Tidy Data
 
 
 
 
 
-    - content: |
 
-        # Spreadsheet Problems
+    - class: center-aligned
+      background-image: images/spread_sheet_problems.png
+      background-size: 100%
+      background-position: 0%
+      content: |
+        ## Spreadsheet Problems
+
+
+
+    - class: center-aligned
+      background-image: images/data_carpentry.png
+      background-size: 100%
+      background-position: 0%
+      content: |
 
 
 
