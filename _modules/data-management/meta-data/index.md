@@ -42,25 +42,88 @@ slides:
 
 
 
-    - content: |
 
-        ## Storage Options
+    - class: center-aligned
+      background-image: images/storage_local.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
 
 
-    - content: |
 
-        ## Storage Options
+    - class: center-aligned
+      background-image: images/storage_hdd.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
 
 
-    - content: |
+    - class: center-aligned
+      background-image: images/storage_ibm_gpfs.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
 
+    - class: center-aligned
+      background-image: images/storage_cloud.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
+
+    - class: center-aligned
+      background-image: images/storage_google_drive.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
+
+
+    - class: center-aligned
+      background-image: images/storage_fig_share.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
+
+
+    - class: center-aligned
+      background-image: images/storage_options_amzn_drpbx.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
+
+
+    - class: center-aligned
+      background-image: images/storage_options_safe.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Storage options
+
+
+
+    - class: center-aligned
+      background-image: images/back_up.png
+      background-size: 10%
+      background-position: 70%
+      content: |
         ## Backup
 
 
 
-    - content: |
 
-        ## Data Transfer
+
+    - class: center-aligned
+      background-image: images/data_transfer.png
+      background-size: 10%
+      background-position: 70%
+      content: |
+        ## Data transfer
+
 ---
 
-TEST

@@ -19,6 +19,7 @@ slides:
 
     - content: |
         # University Policy
+        {:.center-aligned}
 
         - Minimum 6 years
 
@@ -40,18 +41,41 @@ slides:
         # Who owns your data?
 
 
+
+    - class: center-aligned
+      background-image: images/single_copyright.png
+      background-size: 50%
+      background-position: 60%
+      content: |
+        ## Who owns your data?
+
+
+
+
     - content: |
 
         # Copyright and Licensing
 
+    - class: center-aligned
+      background-image: images/licence.png
+      background-size: 30%
+      background-position: 60%
+      content: |
+        ## Copyright and Licensing
 
-    - content: |
-
-        # Picture
 
 
 
-    - content: |
+    - class: center-aligned
+      background-image: images/question.png
+      background-size: 10%
+      background-position: 80%
+      content: |
+
+
+
+    - class: center-aligned
+      content: |
 
         # Publishing Data
 
@@ -75,15 +99,35 @@ slides:
 
 
 
-    - content: |
 
-        # Citing Data
+    - class: center-aligned
+      background-image: images/data_cite.png
+      background-size: 70%
+      background-position: 50%
+      content: |
+
+        ## Citing data
 
 
 
-    - content: |
 
-        ## Lets look at some scenarios
+
+
+    - class: left-aligned
+      background-image: images/socialize.svg
+      background-size: 30%
+      background-position: 70%
+      content: |
+
+        ## Let's looks at some scenarios
+
+      cc:
+        - title: socialize
+          licence: CC-BY
+          author: Konrad Michalik
+          author-url: https://thenounproject.com/konradmichalik/
+          source: Noun Project
+          source-url: https://thenounproject.com/konradmichalik/uploads/?i=62507
 
 
     - content: |
@@ -97,16 +141,22 @@ slides:
 
 
 
-    - content: |
 
-        # Hacky Hour Picture
+    - class: left-aligned
+      background-image: images/hacky_hour.png
+      background-size: 100%
+      background-position: 0%
+      content: |
 
+        
 
-    - content: |
+    - class: left-aligned
+      content: |
 
-        ##In the creation of the workshop we have taken inspiraQon and adapted some ideas and materials from a number of exisQng resources.
+        ### In the creation of the workshop we have taken inspiration and adapted some ideas and materials from a number of existing resources.
+        
        
-        Research Data Management: File Organization
+        Research Data Management: File Organization 
         Katherine McNeill & Helen Bailey
         http://libraries.mit.edu/data-management/files/2014/05/file-organizaQon-july2014.pdf
         (CC-BY-NC-SA)
@@ -137,4 +187,3 @@ slides:
 
 ---
 
-TEST
