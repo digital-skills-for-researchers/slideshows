@@ -3,27 +3,34 @@ layout: slideshow
 title: Course Purpose
 slides:
 
-    - class: title-slide
+  - content: |
 
-    - content: |
-
-        # Course Purpose
-        _Why are we even here?_
+      # Course Purpose
+      _Why are we even here?_
 
 
-    - content: |
+  - content: |
 
-        ## Science has a replication/reproducibility issue
+      ## Science has a replication/reproducibility issue
 
-        ### Many fields
-        * Economics
-        * Psychology
-        * Biology
+      ### Many fields
+      * Economics
+      * Psychology
+      * Biology
 
-    - notes: |
-         Many fields have studies reporting very low replication rates
+    notes: |
 
-    - content: |        
+       Many fields have studies reporting very low replication rates
+
+  - content: |        
+
+      # hi
+
+
+
+    
+---
+
 
 <!-- 
 Science has a replication/reproducibility issue
@@ -44,14 +51,5 @@ The Structure of the course
 Assessment
 Assignments (x%)
 Badges (x%)
-Project report (x%) -->
-
-
-
-
-
-
-
-
-    
----
+Project report (x%) 
+-->
