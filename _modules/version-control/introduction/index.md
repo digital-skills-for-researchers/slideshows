@@ -29,7 +29,7 @@ slides:
 
   - content: |
 
-      Situation 1: Copy Paste
+      **Situation 1: Copy Paste**
       So many folders!
 
     notes: |
@@ -39,7 +39,7 @@ slides:
 
   - content: |
 
-      Situation 2: But it was there yesterday!
+      **Situation 2: But it was there yesterday!**
       Losing your hard work is sucky.
 
     notes: |
@@ -49,7 +49,7 @@ slides:
 
   - content: |
 
-      Situation 3: Sad Laptop
+      **Situation 3: Sad Laptop**
       It just... died.
 
     notes: |
@@ -171,12 +171,15 @@ slides:
 
   - content: |
 
-      ## Title
+      ## Git and GitHub solve our common issues
+
+      Our project is tidier, our backups are well-managed,
+      and all team members have visibility of the project state.
 
 
   - content: |
 
-      --Situation 1: Copy Paste--
+      **Situation 1: Copy Paste - SOLVED**
       
       Git keeps copies for us, letting us focus 
       on the current version at all times.
@@ -188,7 +191,7 @@ slides:
 
   - content: |
 
-      --Situation 2: But it was there yesterday!--
+      **Situation 2: But it was there yesterday! - SOLVED**
       
       Git allows us to view timestamped versions,
       and recover anything we accidentally deleted.
@@ -200,7 +203,7 @@ slides:
 
   - content: |
 
-      --Situation 3: Sad Laptop--
+      **Situation 3: Sad Laptop - SOLVED**
       
       Pushing to GitHub creates a remote backup,
       which we can copy to a new computer if needed.
