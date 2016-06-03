@@ -38,6 +38,8 @@ slides:
 
         Your username will also be used as your GitHub web address.
 
+        Choose the free account and click "Finish sign up".
+
 
       notes: |
 
@@ -45,17 +47,7 @@ slides:
 
         Choose a short and memorable username you won't be embarrassed to share in a professional setting.
 
-
-
-    - content: |
-
-        Choose the free account and click "Finish sign up".
-
-      notes: |
-
-        Free accounts allow you to have unlimited public projects,
-        but if you'd like to have private projects then you will
-        need to change to a paid account.
+        Free accounts allow you to have unlimited public projects, but if you'd like to have private projects then you will need to change to a paid account.
 
 
 
@@ -126,8 +118,8 @@ slides:
 
         ### Company
 
-        This field is optional, and is there to
-        help GitHub users to identify each other.
+        This field is optional, and exists to help 
+        GitHub users identify each other.
 
     - content: |
 
