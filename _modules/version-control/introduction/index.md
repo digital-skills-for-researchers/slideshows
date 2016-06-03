@@ -214,7 +214,9 @@ slides:
 
 
 
+  - content: |
 
+        Great! We've covered the basics of Git, GitHub and Version Control.
 
 
 
