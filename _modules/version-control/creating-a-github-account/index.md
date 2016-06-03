@@ -82,12 +82,7 @@ slides:
 
         ## Complete Your Profile
 
-        Go to your profile page to update your details.
-
-
-    - content: |
-
-        Click on "Edit Profile"
+        Click on "Edit Profile" to update your details.
 
 
     - content: |
@@ -103,7 +98,7 @@ slides:
 
         ### Name
 
-        You name will be displayed publicly.
+        Your name will be displayed publicly.
 
         Most people use their real full name to make
         it easy for others to find them.
@@ -131,16 +126,16 @@ slides:
 
         ### Company
 
-        This field is optional, and is for making it easier
-        for GitHub users to identify each other.
+        This field is optional, and is there to
+        help GitHub users to identify each other.
 
     - content: |
 
         ### Location
 
         This field is optional.
-        It can also be as detailed or as vague as you like.
 
+        It can also be as detailed or as vague as you like.
         Many users simply enter their country.
 
 
@@ -155,7 +150,7 @@ slides:
         ## Sharing Your Profile
 
         People can find your GitHub profile at
-        https://github.com/{your-username}
+        `https://github.com/your-username`
 
     - content: |
 
