@@ -5,32 +5,21 @@ module: version-control
 
 slideshows:
 
-<<<<<<< HEAD
-    - name: introduction
-      title: Introduction
-      description: None
+  - name: introduction
+    title: Introduction
+    description: None
 
-    - name: creating-a-github-account
-      title: Creating a GitHub Account
-      description: None
+  - name: creating-a-github-account
+    title: Creating a GitHub Account
+    description: None
 
-    - name: repositories
-      title: Repositories
-      description: None
+  - name: repositories
+    title: Repositories
+    description: None
 
-    - name: git-workflow
-      title: Git Workflow
-      description: None
-
----
-
-# Version Control
-
-These slideshows cover some concepts around the popular version control system Git and the repository hosting service Github. The subject matter of these slideshows supports the Version Control module in the course.
-
-## Slideshows
-=======
-
+  - name: git-workflow
+    title: Git Workflow
+    description: None
 
 ---
 
@@ -41,7 +30,3 @@ Description TODO
 ## Slideshows
 
 _no slideshows yet_
-
-
-
->>>>>>> 1712bcd5ee5f71262f632911a331574d2f160fda
