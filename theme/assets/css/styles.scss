@@ -12,6 +12,7 @@ $theme-color: {{site.themecolor}};
 @import 'revealjs-theme';
 @import 'revealjs-customisation';
 @import 'revealjs-slides';
+@import 'reveal/speaker-notes-button';
 
 @import 'typography';
 @import 'layout';

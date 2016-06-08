@@ -57,9 +57,12 @@
 		});
 	}
 
+	$('.speaker-notes-button').click( function(){
+		var notesOpen = Sidenotes.toggle();
+		$(this).toggleClass('open', notesOpen);
+	})
 
-	//$('.slideshow').css('height', 'auto').addClass('container');
-	//var revealDiv = $('.reveal').removeClass('reveal');
+
 	startReveal();
 	
 

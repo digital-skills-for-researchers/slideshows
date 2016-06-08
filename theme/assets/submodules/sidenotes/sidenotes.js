@@ -12,7 +12,7 @@ License: MIT license (see LICENSE.md)
 *
 */
 window.Sidenotes || (window.Sidenotes = function (Reveal) {
-
+	
 	var noNotesMessage = "<i>Sorry, no notes for this slide!</i>";
 
 	var sidenotesOpen,
@@ -103,6 +103,8 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 		
 		sidenotesOpen = !sidenotesOpen;
 		layout();
+
+		return sidenotesOpen;
 	}
 
 
@@ -144,6 +146,11 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 		if(event.which == 13) 
 			toggleSidenotes();
 	}
+
+	
+	toggle = toggleSidenotes;
+
+	return this;
 	
 
 }(Reveal));
