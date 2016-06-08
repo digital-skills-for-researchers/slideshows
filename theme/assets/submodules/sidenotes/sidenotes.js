@@ -12,8 +12,8 @@ License: MIT license (see LICENSE.md)
 *
 */
 window.Sidenotes || (window.Sidenotes = function (Reveal) {
-	
-	var noNotesMessage = "<i>Sorry, no notes for this slide!</i>";
+
+	var noNotesMessage = "<p><i>Sorry, no notes for this slide!</i></p>";
 
 	var sidenotesOpen,
 		slideshow,
