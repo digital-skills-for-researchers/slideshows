@@ -14,10 +14,8 @@
 	/*
 	All unordered lists should have margins removed
 	*/
-	ul {
-		li {
-			list-style-type: disc;
-		}
+	ul, li {
+		list-style-type: disc;
 	}
 
 	h1 {
