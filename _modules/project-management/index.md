@@ -5,7 +5,7 @@ module: version-control
 
 slideshows:
 
-<<<<<<< HEAD
+
     - name: introduction
       title: Introduction
       description: None
@@ -44,4 +44,3 @@ _no slideshows yet_
 
 
 
->>>>>>> 1712bcd5ee5f71262f632911a331574d2f160fda

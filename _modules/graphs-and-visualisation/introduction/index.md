@@ -64,8 +64,8 @@ slides:
       + It produces an image
       + The result is readable and recognizable [Kosara (2007)](http://kosara.net/papers/2007/Kosara_IV_2007.pdf)
           
-      note: 
-        Hard to define exactly visualization is. You'll know it when you see it 
+    notes: |
+      Hard to define exactly visualization is. You'll know it when you see it 
 
 
 
@@ -78,8 +78,8 @@ slides:
       * Develop new insights
       * 
 
-      notes: -
-        Effective science communication makes you a better scientist
+    notes: |
+      Effective science communication makes you a better scientist
 
      
   - class: center-aligned
@@ -101,8 +101,8 @@ slides:
 
       Time spent in developing skills in effective visualization will pay itself back many times 
 
-      notes: |
-        Over time you will develop a library of techniques that you can use, as well a more literal library of snippets of code that can be re used
+    notes: |
+      Over time you will develop a library of techniques that you can use, as well a more literal library of snippets of code that can be re used
 
   - content: |
 
@@ -169,11 +169,16 @@ slides:
       3. Length, direction, angle
       4. Area
       5. Volume, curvature
-      6. Shading, colour saturation
+      6. Shading, colour saturation{:.left-aligned}
       
-      notes: |
-        Opinions vary on the exact order
+    notes: |
+      Opinions vary on the exact order
 
+  - content: |
+      ## Avoid Chart Junk
+      ![alt text](http://1.bp.blogspot.com/-QZRaqE5OK1E/Tyl3KDwofOI/AAAAAAAAAWY/0yyupJsyER8/s1600/F1001E_A_large.gif)
+    notes: |
+      This is a bit of an oversimplification. Its okay to make a graphic "junkier" if you feel it needs to be more striking or memorable. It is a trade off.
   - content: |
 
       ## Avoid distortion
@@ -183,18 +188,20 @@ slides:
 
       ## Encoding with size
 
+      Graphic dimension <= Data dimension
 
 
+  - content: |
+
+      ## Small multiples 
+      ![alt text](http://danmaclean.github.io/content/images/2015/07/small_multiples.png)      
 
   - content: |
 
       ## Small multiples
       ![alt text](https://en.wikipedia.org/wiki/Small_multiple#/media/File:The_Horse_in_Motion.jpg)
 
-  - content: |
 
-      ## Small multiples Example 2
-      ![alt text]()      
 
 
   
@@ -203,10 +210,12 @@ slides:
 
       ## Iterate
 
-      + You are probably not going to get it right the first time
+      + You are probably not going to get it right the first time.
 
-      + What makes sense to you wont necessarily make sense to others
+      + What makes sense to you wont necessarily make sense to others. 
 
+    notes: |
+      Creating your figures using script in R/Python etc makes iteration very easy.
 
 
 
@@ -249,14 +258,23 @@ slides:
       Use an anchor figure
       - ![alt text](http://stats.blogoverflow.com/files/2012/02/table_Feinberg.png)
 
+  - content: |
+      ## Sparklines   
+      * Show shape and variation of data 
+      ![alt text](http://i.stack.imgur.com/C463D.png)
 
   - content: |
       ## Visualizing high dimensional/ complex data    
 
-      https://c1.staticflickr.com/7/6142/5920564485_d34dbc2549_b.jpg
-
-      https://archinate.files.wordpress.com/2015/05/edu-workshop-tableaupublic-datadriven1.png
+      ![alt text](https://c1.staticflickr.com/7/6142/5920564485_d34dbc2549_b.jpg)
 
 
+  - content: |
+      ## Visualizing high dimensional/ complex data  
+      ![alt text](https://archinate.files.wordpress.com/2015/05/edu-workshop-tableaupublic-datadriven1.png)
+
+  - content: |
+      ## Explore your options, there is a whole [zoo](http://queue.acm.org/detail.cfm?id=1805128) of choices out there
+      There might not be an established solution yet  ¯\\_(ツ)_/¯ so be creative
 
 --- 

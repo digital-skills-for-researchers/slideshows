@@ -3,28 +3,63 @@ layout: slideshow
 title: Course Purpose
 slides:
 
-    - class: title-slide
+  -  content: |
 
-    - content: |
+      # Digital Skills for Researchers
+      _Course Purpose and Introduction_
 
-        # Course Purpose
-        _Why are we even here?_
+  - class: left-aligned
+    content: |
+
+      ## Science has a replication/reproducibility issue  
+      {:.center-aligned}
+
+      ### Many fields
+      * Economics
+      * Psychology
+      * Biology
+
+    notes: 
+      Many fields have studies reporting very low replication rates
+
+  - content: |
+      ## Course Aims
+      By the end of this course you should have the knowledge and skills to publish reproducible science research 
+
+      note: (and hopefully some of you will infact do that)
 
 
-    - content: |
 
-        ## Science has a replication/reproducibility issue
+  - content: |
+      ## Course Philosophy
+      * Assessed on personal progress, not relative to peers
+      * Skills are means to an ends, not the goal
+      * Point 3
 
-        ### Many fields
-        * Economics
-        * Psychology
-        * Biology
 
-    - notes: |
-         Many fields have studies reporting very low replication rates
+  - content: |
+      ## Course Structure
+      * 11 modules
+      * Fist halve of the course - technical skills
+      * Second half - more conceptual using skills learnt in first half
+      * Ongoing assignments and working on your project    
 
-    - content: |        
 
+  - content: |
+      ## Course Assessment
+
+      |Assessment| Weighting|
+      |--------|---:|
+      | Project| x%|
+      | Badges | x%|
+      | Reflections| x%|
+      | Peer review| x%|
+
+
+  - content: |
+      ## And now to the first module (ask me questions later)
+
+---
 <!-- 
 Science has a replication/reproducibility issue
 Many studies across many fields reporting low success rates for replication
@@ -36,6 +71,7 @@ Data collection and storage, processing, analyses, visualization and conclusion 
 
 Our research should be reproducible
 
+This can feel daunting. Making our work visible to everyone else sounds like a scary proposition.
 
 The Structure of the course
 
@@ -53,5 +89,5 @@ Project report (x%) -->
 
 
 
-    
+  
 ---
