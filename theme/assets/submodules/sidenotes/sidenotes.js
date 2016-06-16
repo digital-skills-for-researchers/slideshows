@@ -11,20 +11,18 @@ Version: 0.1
 License: MIT license (see LICENSE.md)
 *
 */
-
 window.Sidenotes || (window.Sidenotes = function (Reveal) {
 
+	var noNotesMessage = "<p><i>Sorry, no notes for this slide!</i></p>";
+
 	var sidenotesOpen,
-		slideshow;
+		slideshow,
+		notesPanel;
 
 
 	// Reveal event bindings
 	Reveal.addEventListener('ready', init);
 	Reveal.addEventListener('slidechanged', updateNotes);
-
-
-	// document event bindings
-	$(document).keypress( onKeypress );
 
 
 
@@ -33,9 +31,11 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 	*/
 	function init(event) {
 		getSlideshow();
+		createNotesPanel();
 		updateNotes();
 		loadCookies();
 		layout();
+		bindKeys();
 	}
 
 
@@ -44,7 +44,23 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 	which is where we will add the sidenotes.
 	*/
 	function getSlideshow() {
-		slideshow = $(".sidenotes").parent();
+		slideshow = $('.sidenotes').parent();
+	}
+
+
+	/*
+	Adds a div inside the slideshow which will contain
+	the speaker notes.
+	*/
+	function createNotesPanel() {
+
+		notesPanel = $('.sidenotes');
+
+		if(!notesPanel) {
+			notesPanel = $('<div></div>');
+			notesPanel.addClass('sidenotes');
+			slideshow.append(notesPanel);
+		}
 	}
 
 
@@ -54,6 +70,11 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 	function updateNotes() {
 		slide = Reveal.getCurrentSlide();
 		notes = $(slide).find('aside.notes').html();
+
+		if(notes.trim().length == 0){
+			notes = noNotesMessage;
+		}
+
 	    $('.sidenotes .content').html(notes);
 	}
 
@@ -82,6 +103,8 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 		
 		sidenotesOpen = !sidenotesOpen;
 		layout();
+
+		return sidenotesOpen;
 	}
 
 
@@ -108,12 +131,26 @@ window.Sidenotes || (window.Sidenotes = function (Reveal) {
 
 
 	/*
+	Watch for key presses in the window
+	*/
+	function bindKeys() {
+		// document event bindings
+		$(document).keypress( onKeypress );
+	}
+
+
+	/*
 	Allow the user to toggle sidenotes using the enter key
 	*/
 	function onKeypress(event) {
 		if(event.which == 13) 
 			toggleSidenotes();
 	}
+
+	
+	toggle = toggleSidenotes;
+
+	return this;
 	
 
 }(Reveal));

@@ -38,6 +38,8 @@ slides:
 
         Your username will also be used as your GitHub web address.
 
+        Choose the free account and click "Finish sign up".
+
 
       notes: |
 
@@ -45,17 +47,7 @@ slides:
 
         Choose a short and memorable username you won't be embarrassed to share in a professional setting.
 
-
-
-    - content: |
-
-        Choose the free account and click "Finish sign up".
-
-      notes: |
-
-        Free accounts allow you to have unlimited public projects,
-        but if you'd like to have private projects then you will
-        need to change to a paid account.
+        Free accounts allow you to have unlimited public projects, but if you'd like to have private projects then you will need to change to a paid account.
 
 
 
@@ -82,12 +74,7 @@ slides:
 
         ## Complete Your Profile
 
-        Go to your profile page to update your details.
-
-
-    - content: |
-
-        Click on "Edit Profile"
+        Click on "Edit Profile" to update your details.
 
 
     - content: |
@@ -103,7 +90,7 @@ slides:
 
         ### Name
 
-        You name will be displayed publicly.
+        Your name will be displayed publicly.
 
         Most people use their real full name to make
         it easy for others to find them.
@@ -131,16 +118,16 @@ slides:
 
         ### Company
 
-        This field is optional, and is for making it easier
-        for GitHub users to identify each other.
+        This field is optional, and exists to help 
+        GitHub users identify each other.
 
     - content: |
 
         ### Location
 
         This field is optional.
-        It can also be as detailed or as vague as you like.
 
+        It can also be as detailed or as vague as you like.
         Many users simply enter their country.
 
 
@@ -155,7 +142,7 @@ slides:
         ## Sharing Your Profile
 
         People can find your GitHub profile at
-        https://github.com/{your-username}
+        `https://github.com/your-username`
 
     - content: |
 

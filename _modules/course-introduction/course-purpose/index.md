@@ -3,6 +3,7 @@ layout: slideshow
 title: Course Purpose
 slides:
 
+
   -  content: |
 
       # Digital Skills for Researchers
@@ -45,19 +46,9 @@ slides:
       * Ongoing assignments and working on your project    
 
 
-  - content: |
-      ## Course Assessment
-
-      |Assessment| Weighting|
-      |--------|---:|
-      | Project| x%|
-      | Badges | x%|
-      | Reflections| x%|
-      | Peer review| x%|
 
 
-  - content: |
-      ## And now to the first module (ask me questions later)
+
 
 ---
 <!-- 
@@ -77,10 +68,7 @@ The Structure of the course
 
 11 Modules covering project management, data management, computing, visualization, sharing, licensing and publishing. Learn how to integrate these skills together into a scientific work flow. During the course you will apply what you are learning to your project, working so that is (100%) reproducible science. The focus of this course is as much on creating reproducible workflows as it is the individual tools and skills that go into creating those worlflows. 
 
-Assessment
-Assignments (x%)
-Badges (x%)
-Project report (x%) -->
+
 
 
 
@@ -91,3 +79,7 @@ Project report (x%) -->
 
   
 ---
+=======
+Project report (x%) 
+-->
+>>>>>>> 4e8361ebda59a41fbcb0a101bb79875ce968ea86

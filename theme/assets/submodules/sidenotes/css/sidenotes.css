@@ -1,10 +1,43 @@
+.slideshow {
+	display: flex;
+	align-items: stretch;
+}
+
 .reveal {
+	flex:1;
 	box-sizing: border-box;
 	transition: width 0.6s;
 	overflow: hidden;
 }
 
-.inline-notes {
+.sidenotes {
+	z-index: 8;
+	transition: all 0.6s;
+	background: #fff;
+	overflow: hidden;
+	flex: 0;
+	box-shadow: -2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidenotes .content {
+	padding: 2em;
+	width: 33vw;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.sidenotes .content	code {
+	background: #F3F3DA;
+	padding: 2px 5px;
+}
+
+
+.slideshow.with-notes .sidenotes {
+	flex: 0.5; 
+}
+
+
+/*.inline-notes {
 	position: absolute;
 	background: #fff;
 	right: 0;
@@ -20,7 +53,6 @@
 	padding: 20px 30px;
 	box-sizing: border-box;
 
-	/* font size screen-width-dependent on smaller screens */
 	@media (max-width: 800px) {
 	    font-size: 1.8vw;
 	}
@@ -39,10 +71,10 @@ body.with-notes .reveal {
 
 body.with-notes .inline-notes {
 	width: 30%;
-}
+}*/
 
 /* handle portrait mode */
-@media only screen
+/*@media only screen
 and (orientation : portrait) {
 	
 	body.with-notes .reveal {
@@ -59,7 +91,7 @@ and (orientation : portrait) {
 		bottom: 0;
 		overflow: scroll;
 	}
-}
+}*/
 
 
 

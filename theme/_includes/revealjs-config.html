@@ -1,14 +1,22 @@
 <script src="{{ site.baseurl }}/theme/assets/submodules/revealjs/lib/js/head.min.js"></script>
 <script src="{{ site.baseurl }}/theme/assets/submodules/revealjs/js/reveal.min.js"></script>
 
+<!-- sidenotes -->
+<script src="{{ site.baseurl }}/theme/assets/submodules/sidenotes/libs/js.cookie.js"></script>
+
 <script>
 
-	// Full list of configuration options available here:
-	// https://github.com/hakimel/reveal.js#configuration
-	Reveal.initialize({
+	/*
+	config options to use when creating a reveal slideshow
+	*/
+	var revealConfig = {
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+
 		controls: true,
 		progress: true,
-		history: false,
+		history: true,
 		center: true,
 
 		width: 1024,
@@ -30,30 +38,32 @@
 			{ src: '{{ site.baseurl }}/theme/assets/submodules/sidenotes/libs/js.cookie.js' }
 			/*{ src: '{{ site.baseurl }}/assets/submodules/prism/prism.js', callback: function() { Prism.highlightAll() }}*/
 		]
-	});
-    
-    function checkNotesState() {
+	};
 
-	    // show the notes on page load if notesByDefault has been 
-	    // set to true in the page's front matter.
-	    {% if page.notesByDefault %}
-	      var notesByDefault = {{ page.notesByDefault }};
-	    {% else %}
-	      var notesByDefault = false;
-	    {% endif %}
 
-	    if(notesByDefault == true) {
-	    	Sidenotes.showNotes();
-	    }
+	/*
+	start the reveal slideshow by initialising it
+	*/
+	function startReveal() {
+		
+		Reveal.initialize(revealConfig);
+
+		Reveal.addEventListener( 'slidechanged', function( event ) {
+			slide = $(event.currentSlide);
+			if(slide.hasClass('fullscreen')) {
+				slide.css('zoom', 1 / Reveal.getScale());
+				slide.children().css('zoom', Reveal.getScale());
+			}
+		});
 	}
 
-	Reveal.addEventListener( 'slidechanged', function( event ) {
-		slide = $(event.currentSlide);
-		if(slide.hasClass('fullscreen')) {
-			slide.css('zoom', 1 / Reveal.getScale());
-			slide.children().css('zoom', Reveal.getScale());
-		}
-	});
-		
+	$('.speaker-notes-button').click( function(){
+		var notesOpen = Sidenotes.toggle();
+		$(this).toggleClass('open', notesOpen);
+	})
+
+
+	startReveal();
+	
 
 </script>
