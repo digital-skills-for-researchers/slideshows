@@ -12,7 +12,10 @@ slides:
 
         Variety of theories for how and why.
 
-    
+      notes: |
+        Do this without thinking. 
+
+        For further reading on the different theories see
 
     - content: |
 
@@ -23,6 +26,8 @@ slides:
 
       notes: |
         How we process visual information has a big impact on designing effective visualizations
+
+        Its no coincidence that alot of the markers and channels we use in visualization are objects and distinctions we pre-attentively process.
 
 
 

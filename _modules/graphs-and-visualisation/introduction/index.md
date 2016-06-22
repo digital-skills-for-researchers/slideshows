@@ -30,14 +30,39 @@ slides:
       notes: |
         Hard to define exactly visualization is. You'll know it when you see it. Sorry. 
 
-        At the highest level Information visualization is the graphical representation of data (of any sort, numerical, text, geographic etc)
+        At the highest level Information visualization is the graphical representation of data (of any sort, numerical, text, geographical etc)
 
         Scientific visualization is mainly concerned with developing representations of three or more dimensional data. For example MRI or an aerodynamics simulation.
 
         We are going to be focussing on Data Visualization, which we will take to mean "information which has been abstracted in some schematic form, including attributes or variables for the units of information " [Friendly](http://www.math.usu.edu/~symanzik/teaching/2009_stat6560/Downloads/Friendly_milestone.pdf). Data visualization encompasses statistical graphics, and plots amongst other things.
+
+    - content: |
+        ## A quick history
         
 
 
+       notes: |
+
+        Data Visualization began to emerge in the 16th century, this 
+        Keeping scientific data in tabular form
+
+    - content: |
+      ## A quick history    
+      William Playfair invents line, area, bar and pie charts. 
+      ![Timeseries](https://upload.wikimedia.org/wikipedia/commons/d/d8/Playfair_TimeSeries.png)
+
+    - content: |
+      ## The modern era
+      High dimensional, interactive and dynamic  
+
+
+      notes: |
+      Huge increases in computer power and data sets
+      New forms still being invented
+      Moving bubble charts
+      Word clouds
+      circos images
+      Friednly [2006](http://www.datavis.ca/papers/hbook.pdf) and the milestones in [dataviz](http://datavis.ca/milestones/) website by the same author give a good history of the field
 
 
     - content: |

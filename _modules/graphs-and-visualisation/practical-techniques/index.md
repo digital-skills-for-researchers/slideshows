@@ -1,6 +1,6 @@
 ---
 layout: slideshow
-title: Introduction to Programming with Python
+title: Practical Visualization Techniques
 slides:
 
 
@@ -50,6 +50,15 @@ slides:
 
       notes: |
         Creating your figures using script in R/Python etc makes iteration very easy.
+
+        Validate your design decisions, particularily on more complex graphics.
+
+    - content: |
+        ## Aesthetics
+
+      notes: |
+        Don't be afraid of spending time to make your graphics look nice beyond the point of a servicable level of prettyness. Going beyond this point isnt [something], Make graphics that people want to look at. 
+
 
 
 
