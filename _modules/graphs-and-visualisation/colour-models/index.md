@@ -3,7 +3,15 @@ layout: slideshow
 title: Introduction to Programming with Python
 slides:
 
+    - content: |
+        ## Perception of colour
+        ![Colour Sensitivty](https://upload.wikimedia.org/wikipedia/commons/9/94/1416_Color_Sensitivity.jpg)
 
+      notes: |
+        Three types of colour receptor. Tuned to Short medium and long wave
+        When light comes falls on the retina, the different receptors will respond at different levels depending on their tuning. Combining their output creates the perception of the colour of the light. 
+
+        From the sensitivity graph you have probably noticed that we have an even response across the spectrum of visible colour. If you sum up the response curves you'll see that we perceive greenish colours more brightly.
 
     - content: |
         # Colour
@@ -22,20 +30,20 @@ slides:
       content: |
         ## Modelling Colour
 
-        * RGB Colour Model
+        * RGB  Colour Model
         * Represents colour as a triple (R,G,B)
         * What most displays use 
         * Device independent implementation
         {:.left-aligned}
       notes: |
 
-        The colour model you are most likely to be familiar with is the RGB model. In the RBG model we represent colour a a triple, with one value for each of Red, Green and Blue.
+        The colour model you are most likely to be familiar with is the RGB model. In the RBG model we represent colour a a triple of three numbers, with one number for each of Red, Green and Blue.
 
-        It's handy to know how the RBG model works as this is the most common colour model used in displays. Nearly all displays have three colours per pixel or point on the screen, whici produce red, green or blue light.
+        It's handy to know how the RBG model works as this is the most common colour model used in displays. Nearly all displays have three colours per pixel or point on the screen, which produce red, green or blue light.
 
         Something important to note about RGB is that the actual implementation, how each colour gets reproduced on a screen, is up to the maker of the screen. No two types of screens will reproduce the same RGB value in the same way. A certain shade of green on one screen will be slightly different on another. This is pretty noticeable when creating a series of slides on a laptop and then going and playing them through a projector.
 
-        We visualize the colour space of RGB as a cube. Each corner of the cube has each colour at full strength or zero strength, with colours inside the cube having values in between. Visulzaing the RBG cube highlights that it is fairly unintuitive way to think about colour. Trying to adjust colours in  RGB for a desired affect is not a straightforward process.
+        We visualize the colour space of RGB as a cube. Each corner of the cube has each colour at full strength or zero strength, with colours inside the cube having values in between. Visualizing the RBG cube highlights that it is fairly unintuitive way to think about colour. Trying to adjust colours in  RGB for a desired affect is not a straightforward process.
 
         . 
 
