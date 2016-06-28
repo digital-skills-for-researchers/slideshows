@@ -9,22 +9,26 @@ slideshows:
       title: Introduction
       description: None
 
-    - name: creating-a-github-account
-      title: Creating a GitHub Account
+    - name: science-of-visualization
+      title: The Science of Visualization
       description: None
 
-    - name: repositories
-      title: Repositories
+    - name: colour-models
+      title: Colour Models
       description: None
 
-    - name: git-workflow
-      title: Git Workflow
+    - name: image-types-and-formats
+      title: Image Types and Formats
+      description: None
+
+    - name: practical-techniques
+      title: Practical Techniques
       description: None
 
 ---
 
 # Version Control
 
-These slideshows cover some concepts around the popular version control system Git and the repository hosting service Github. The subject matter of these slideshows supports the Version Control module in the course.
+These slideshows cover Data Visualization.
 
 ## Slideshows
