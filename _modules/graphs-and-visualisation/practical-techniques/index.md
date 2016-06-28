@@ -116,12 +116,33 @@ slides:
 
 
       notes: |
-        + distinct for all people, including colour-blind readers;
-        + distinct from black and white;
-        + distinct on screen and paper;
-        + still match well together.
+        The typical/default colour map or palette used in Scientific Visualization is the rainbow colour map (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
+
+        The big issue with the Rainbow colour map is that it is not perceptually ordered. To remember the ordering most people use a mnemonic Roy G Biv or the like. In studies where people have been asked to place them in order the orderings they come up with vary. If asked to sort a series of shades of grey they place them in order of lightness to darkest, or the reverse. If your data has some sort of ordering, the rainbow colour map wont convent that. 
+
+        Perhaps one advantage of the rainbow colour map is familiarity, people are accustomed to seeing and interpreting it. And it is pretty and quite striking.
+
+        When choosing a colour map here are some principles we should follow
+
+        – The map yields images that are aesthetically pleasing.
+        – The map has a maximal perceptual resolution.
+        – The order of the colours should be intuitively the same for all people.
+        – The perceptual interpolation matches the underlying scalars of the map.
+        - distinct for all people, including colour-blind readers;
+        - distinct from black and white;
+        - distinct on screen and paper;
+
+        From [Kenneth Moreland  ](https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/ColorMapsExpanded.pdf)
+
+        Here are some tools which can help you pick or create a colour map
+
         http://colorbrewer2.org/
+        https://color.adobe.com/create/color-wheel/
         http://tools.medialab.sciences-po.fr/iwanthue/  
+        http://www.mrao.cam.ac.uk/~dag/CUBEHELIX/cubetry.html
+        http://paletton.com/
+
+        Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
     
 
     - content: |
