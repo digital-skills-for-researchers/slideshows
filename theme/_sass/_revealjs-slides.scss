@@ -49,4 +49,11 @@
 	section.right-aligned {
 		padding: 0 10%;
 	}
+
+	.light-text,
+	.light-text h2,
+	.light-text h3 {
+		color: #fbfbfb;
+		text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	}
 }
