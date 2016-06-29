@@ -26,13 +26,21 @@ slideshows:
   - name: project-vision
     title: Project Vision
     description: None
-    
+
   - name: pitches
     title: Project Pitches
     description: None
 
   - name: scrum
     title: Scrum
+    description: None
+  
+  - name: scrum-roles
+    title: Scrum Roles
+    description: None
+    
+  - name: user-stories
+    title: User Stories
     description: None
 
   
