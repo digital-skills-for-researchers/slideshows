@@ -18,17 +18,10 @@ slideshows:
   - name: team-charter
     title: Team Charter
     description: None
+    image: high-level-view.jpg
 
   - name: working-agreement
     title: Working Agreement
-    description: None
-  
-  - name: project-vision
-    title: Project Vision
-    description: None
-
-  - name: pitches
-    title: Project Pitches
     description: None
 
   - name: scrum
@@ -41,6 +34,10 @@ slideshows:
     
   - name: user-stories
     title: User Stories
+    description: None
+
+  - name: pitches
+    title: Project Pitches
     description: None
 
   
