@@ -14,13 +14,33 @@ slideshows:
     title: Agile Manifesto
     description: None
     image: utah-mountains.jpg
+
+  - name: team-charter
+    title: Team Charter
+    description: None
+
+  - name: working-agreement
+    title: Working Agreement
+    description: None
   
-  - name: agile-teams
-    title: Agile Teams
+  - name: project-vision
+    title: Project Vision
+    description: None
+
+  - name: pitches
+    title: Project Pitches
     description: None
 
   - name: scrum
     title: Scrum
+    description: None
+  
+  - name: scrum-roles
+    title: Scrum Roles
+    description: None
+    
+  - name: user-stories
+    title: User Stories
     description: None
 
   
