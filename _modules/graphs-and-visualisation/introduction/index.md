@@ -22,11 +22,15 @@ slides:
         {:.fragment}
             
       notes: |
-        Hard to define exactly visualization is. You'll know it when you see it. Sorry. 
+        Its hard to to  give an exact definition of what visualization is. You'll know it when you see it. Sorry. 
 
-        At the highest level Information visualization is the graphical representation of data (of any sort, numerical, text, geographical etc)
+        At the highest level Information visualization is the graphical representation of data (numerical, text, geographical etc). The data source is not something already visualized, its abstract.
 
-        Scientific visualization is mainly concerned with developing representations of three or more dimensional data. For example MRI or an aerodynamics simulation.
+        The requirement of producing an image may be obvious, but the point is that the produced image is the primary way of communication information. If it is secondary to something else, it is not a visualization.  
+
+        When we say the result is readable and recognizable, we are setting a criteria that the visualization is a means to learn something about the underlying data. This is in contrast to "informative/information art", in which images are generated from data where conveying information is not their primary purpose.
+
+        Scientific visualization is mainly concerned with developing representations of three or more dimensional data. For example MRI or an aerodynamics simulation. Scientific visualisations are less abstract than data visualizations.
 
         We are going to be focussing on Data Visualization, which we will take to mean "information which has been abstracted in some schematic form, including attributes or variables for the units of information " [Friendly](http://www.math.usu.edu/~symanzik/teaching/2009_stat6560/Downloads/Friendly_milestone.pdf). Data visualization encompasses statistical graphics, and plots amongst other things.
 
@@ -37,7 +41,11 @@ slides:
 
       notes: |
 
-        Data Visualization began to emerge in the 16th century, this 
+        Data Visualization began to emerge in the 16th century, prior to this data visualization was limited to maps and diagrams.  
+
+        Creation of co-ordinate systems
+        Theories in errors of measurement and estimation
+        Collection of social and demographic data
         Keeping scientific data in tabular form
 
     - content: |

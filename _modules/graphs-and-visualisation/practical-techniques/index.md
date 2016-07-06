@@ -144,25 +144,40 @@ slides:
 
         Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
     
+    - content: |
+        ## The F pattern
+        [The F pattern](https://media.nngroup.com/media/editor/alertbox/f_reading_pattern_eyetracking.jpg)
+        notes: |
+        When we read formatted text (Headings, paragraphs etc) we read it in a F pattern (if we read left to right otherwise it is the reverse. Pictured is a website with a heat map of where users look on the website, from tracking their eyes. The areas most frequently looked at follow a F pattern. This is now a very common pattern for how content is arranged in websites.
+
+        If you have information arranged on the page that want to reader to focus on, you need a way of drawing readers attention to it 
+
+        
+
+
 
     - content: |
 
         ## Iterate
 
-        + You are probably not going to get it right the first time.
 
-        + What makes sense to you wont necessarily make sense to others. 
 
       notes: |
-        Creating your figures using script in R/Python etc makes iteration very easy.
+        You are probably not going to get it right the first time. Creating your figures using script in R/Python etc makes iteration very easy. Changing the various graphical elements of a figure is very quick, and unlike say excel easily revertible, its just code. 
 
-        Validate your design decisions, particularly on more complex graphics.
+        What makes sense to you wont necessarily make sense to others. Just as you have others read over your work to check that the text flows and is free of errors, the same should be done for graphics you create. Validate your design decisions, particularly on more complex graphics. 
+
+        
+
+        
 
     - content: |
         ## Aesthetics
 
       notes: |
-        Don't be afraid of spending time to make your graphics look nice beyond the point of a serviceable level of prettiness. Going beyond this point inst [something], Make graphics that people want to look at. 
+        Don't be afraid of spending time to make your graphics look nice beyond the point of a serviceable level of attractiveness. Graphics are not just something you throw into a report and then forget about them. 
+
+         Going beyond this point inst [something], Make graphics that people want to look at. 
 
 
 
