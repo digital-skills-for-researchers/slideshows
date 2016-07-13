@@ -34,7 +34,7 @@ slides:
 
         ## Sign Up for GitHub
 
-        Go to the [GitHub Home Page](https://github.com/) and fill in your details.
+        Go to the [GitHub Home Page](https://github.com/){:target="_blank"} and fill in your details.
 
         Your username will also be used as your GitHub web address.
 
