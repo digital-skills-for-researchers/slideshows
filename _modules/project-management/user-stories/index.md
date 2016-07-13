@@ -6,7 +6,15 @@ slides:
 
   - content: |
 
-      # User Stories
+      # Workflow Management
+
+
+
+  - content: |
+
+      Backlog -> Todo -> Doing -> Testing -> Done
+
+      
 
   - content: |
 
@@ -54,6 +62,36 @@ slides:
       It is easier and faster to agree an arbitrary measure than it is to use one based on our own skill and experience and speed level. 
 
       This agreement makes relative sizing of stories much easier.
+
+
+  - content: |
+
+      Stakeholders have lots of ideas
+      They are not limited to 4-6 ideas per week
+      Every time something is delivered they will have new ideas
+      These cannot be allowed overload the team
+      Remember the teams capacity is 4-6 per week
+      Overloading causes
+      Multitasking, demotivation, interruptions
+
+
+
+
+
+  - content: |
+
+      ## what do we build this week
+
+      Team weekly velocity is 4-6 stories
+      P.O. needs to work out which 4-6 stories should be built this week
+      A backlog is used to queue the stakeholder ideas
+      Called a Product Backlog
+      Over time can become large
+      Items can get ‘old’ in the queue
+      P.O needs to have authority to say NO!
+
+
+
 
 
 ---

@@ -7,13 +7,18 @@ slides:
     - content: |
         ## The Science of Perception and Visualization
 
-        Human perception important aspect of visualization
-        Pre attentive processing: low level visual system rapidly processes certain basic features of an image (<200 ms).
+        + Human perception important aspect of visualization
+        + Pre attentive processing: low level visual system rapidly processes certain basic features of an image (<200 ms).
 
-        Variety of theories for how and why.
+        
 
       notes: |
+        To make more effective visualizations its helful to understand how people process visual information. This is quite a broad field so we have a brief look at perceptual procesing, how people process visual information and build a representation of what they are seeing. 
+
+        
         Do this without thinking. 
+        Variety of theories for how and why.
+        
 
         For further reading on the different theories see
 
@@ -38,9 +43,13 @@ slides:
     - content: |
 
         ## The Science of Perception and Visualization
+        Conjunction
 
         Pre attentive Processing
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_A.gif)   ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_P.gif)
+        notes: |
+        Combing features that we notice pre attentively that are not unique we stop us notcing them pre attentively. In the image on the right there is a rec circle, but it doesnt jump out at us like it did before. It is no longer unique as there are both circles and red coloured shapes present in the image. 
+
         
 
     - content: |
@@ -52,6 +61,12 @@ slides:
 
         If we are pay close attention to a graphic and try and search for features and information, post attentively searching, finding what we are looking for takes as long or longer as the first, pre attentive, glance. 
 
+    - content: |
+        ## Post attentive visualization 
+        + Change blindess
+        ![Spot the difference!](https://res.cloudinary.com/vayner/image/upload/v1458296601/braindecoder/rebelmouse--1882005548.gif)
+ 
+      notes: |  
         We can see this our selves with the change blindness phenomena.
 
         When we are presenting a visualisation to a viewer it will generally be novel for them, they wont have seen it before. We can't rely on the viewer having some prior knowledge or guidance avout where to look at or for in a graphic.
@@ -59,6 +74,12 @@ slides:
         Studying a graphic may give no help in searching for specific data values.
 
         If we want the viewing to be drawn to things need to use pre attentive processing
+
+
+    - content: |
+        ## Post attentive visualization 
+        + Change blindess
+        ![Spot the difference!](https://www.csc.ncsu.edu/faculty/healey/HTML_papers/NPV/figs/sphinx.jpg)
 
 
     - content: |

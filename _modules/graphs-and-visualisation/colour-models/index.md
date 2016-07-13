@@ -62,11 +62,16 @@ slides:
 
 
       notes: |
-        The HSL and HSV are alternative representations of the RGB colour model. They were designed to be a more intuitive way of viewing the RGB colour spectrum. 
+        The HSL and HSV are alternative representations of the RGB colour model. They were designed to be a more intuitive way of viewing the RGB colour spectrum. RGB is useful when we are describing how to produce colours in a computer monitor, but now how to make a shade of green slightly more blue tinged for example.
 
-        In the HSL model the Hue of the colour is a angle between 0 and 360 degrees.  The Luminance is the brightness of the colour, 0% Luminance is black and 100% Luminance is white, with darker and lighter shades of the colour between.
+        In the HSL model the Hue of the colour is a angle between 0 and 360 degrees. Hue represents moving along the visible range of colour, from red  to yellow, green, blue, purple and then back to red  The Luminance is the brightness of the colour, 0% Luminance is black and 100% Luminance is white, with darker and lighter shades of the colour between.
 
-        HSV 
+        In HSV  we have Hue which works in the same way as HSL. Saturation is the distance from the neutral colour on the grey black-axis to a pure hue, and value is where the colour sites of the grey-black axis.
+
+        There are advantages and disadvantages to both models relative to one another. Colour picking in software seems to arbitrarily pick one or the other, or sometimes both. 
+
+        While HSL/HSV let us describe colour in perceptual manner, they are not perceptually uniform. (Example?)
+
 
         
     - class: center-aligned

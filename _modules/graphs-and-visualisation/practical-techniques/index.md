@@ -116,32 +116,68 @@ slides:
 
 
       notes: |
-        + distinct for all people, including colour-blind readers;
-        + distinct from black and white;
-        + distinct on screen and paper;
-        + still match well together.
+        The typical/default colour map or palette used in Scientific Visualization is the rainbow colour map (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
+
+        The big issue with the Rainbow colour map is that it is not perceptually ordered. To remember the ordering most people use a mnemonic Roy G Biv or the like. In studies where people have been asked to place them in order the orderings they come up with vary. If asked to sort a series of shades of grey they place them in order of lightness to darkest, or the reverse. If your data has some sort of ordering, the rainbow colour map wont convent that. 
+
+        Perhaps one advantage of the rainbow colour map is familiarity, people are accustomed to seeing and interpreting it. And it is pretty and quite striking.
+
+        When choosing a colour map here are some principles we should follow
+
+        – The map yields images that are aesthetically pleasing.
+        – The map has a maximal perceptual resolution.
+        – The order of the colours should be intuitively the same for all people.
+        – The perceptual interpolation matches the underlying scalars of the map.
+        - distinct for all people, including colour-blind readers;
+        - distinct from black and white;
+        - distinct on screen and paper;
+
+        From [Kenneth Moreland  ](https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/ColorMapsExpanded.pdf)
+
+        Here are some tools which can help you pick or create a colour map
+
         http://colorbrewer2.org/
+        https://color.adobe.com/create/color-wheel/
         http://tools.medialab.sciences-po.fr/iwanthue/  
+        http://www.mrao.cam.ac.uk/~dag/CUBEHELIX/cubetry.html
+        http://paletton.com/
+
+        Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
     
+    - content: |
+        ## The F pattern
+        [The F pattern](https://media.nngroup.com/media/editor/alertbox/f_reading_pattern_eyetracking.jpg)
+        notes: |
+        When we read formatted text (Headings, paragraphs etc) we read it in a F pattern (if we read left to right otherwise it is the reverse. Pictured is a website with a heat map of where users look on the website, from tracking their eyes. The areas most frequently looked at follow a F pattern. This is now a very common pattern for how content is arranged in websites.
+
+        If you have information arranged on the page that want to reader to focus on, you need a way of drawing readers attention to it 
+
+        
+
+
 
     - content: |
 
         ## Iterate
 
-        + You are probably not going to get it right the first time.
 
-        + What makes sense to you wont necessarily make sense to others. 
 
       notes: |
-        Creating your figures using script in R/Python etc makes iteration very easy.
+        You are probably not going to get it right the first time. Creating your figures using script in R/Python etc makes iteration very easy. Changing the various graphical elements of a figure is very quick, and unlike say excel easily revertible, its just code. 
 
-        Validate your design decisions, particularly on more complex graphics.
+        What makes sense to you wont necessarily make sense to others. Just as you have others read over your work to check that the text flows and is free of errors, the same should be done for graphics you create. Validate your design decisions, particularly on more complex graphics. 
+
+        
+
+        
 
     - content: |
         ## Aesthetics
 
       notes: |
-        Don't be afraid of spending time to make your graphics look nice beyond the point of a serviceable level of prettiness. Going beyond this point inst [something], Make graphics that people want to look at. 
+        Don't be afraid of spending time to make your graphics look nice beyond the point of a serviceable level of attractiveness. Graphics are not just something you throw into a report and then forget about them. 
+
+         Going beyond this point inst [something], Make graphics that people want to look at. 
 
 
 
