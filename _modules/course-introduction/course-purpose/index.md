@@ -20,14 +20,14 @@ slides:
       * Psychology
       * Biology
 
-    notes: 
+    notes:
       Many fields have studies reporting very low replication rates
 
   - content: |
       ## Course Aims
-      By the end of this course you should have the knowledge and skills to publish reproducible science research 
+      By the end of this course you should have the knowledge and skills to publish reproducible science research
 
-      note: (and hopefully some of you will infact do that)
+      note: (and hopefully some of you will, in fact, do that)
 
 
 
@@ -41,8 +41,8 @@ slides:
   - content: |
       ## Course Structure
       * 11 modules
-      * Fist halve of the course - technical skills
-      * Second half - more conceptual using skills learnt in first half
+      * First half of the course: technical skills
+      * Second half: more conceptual, using skills learnt in first half
       * Ongoing assignments and working on your project    
 
 
@@ -51,14 +51,14 @@ slides:
 
 
 ---
-<!-- 
+<!--
 Science has a replication/reproducibility issue
 Many studies across many fields reporting low success rates for replication
 <50%
 
 We have the technology
 Computation has becoming an increasingly large part of the scientific process
-Data collection and storage, processing, analyses, visualization and conclusion all depend more and more on computation  
+Data collection and storage, processing, analysis, visualization and conclusion all depend more and more on computation  
 
 Our research should be reproducible
 
@@ -66,7 +66,7 @@ This can feel daunting. Making our work visible to everyone else sounds like a s
 
 The Structure of the course
 
-11 Modules covering project management, data management, computing, visualization, sharing, licensing and publishing. Learn how to integrate these skills together into a scientific work flow. During the course you will apply what you are learning to your project, working so that is (100%) reproducible science. The focus of this course is as much on creating reproducible workflows as it is the individual tools and skills that go into creating those worlflows. 
+11 Modules covering project management, data management, computing, visualization, sharing, licensing and publishing. Learn how to integrate these skills together into a scientific work flow. During the course you will apply what you are learning to your project, working so that is (100%) reproducible science. The focus of this course is as much on creating reproducible workflows as it is the individual tools and skills that go into creating those workflows.
 
 
 
@@ -77,9 +77,9 @@ The Structure of the course
 
 
 
-  
+
 ---
 =======
-Project report (x%) 
+Project report (x%)
 -->
 >>>>>>> 4e8361ebda59a41fbcb0a101bb79875ce968ea86
