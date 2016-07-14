@@ -74,6 +74,10 @@ slides:
 
         ## Complete Your Profile
 
+        ![GitHub Profile Select Image](images/github-profile-select.png){:height="250"}
+
+        From the dropdown bar at the top right, select "Your profile"
+
         Click on "Edit Profile" to update your details.
 
 
@@ -142,6 +146,7 @@ slides:
         ## Sharing Your Profile
 
         People can find your GitHub profile at
+        
         `https://github.com/your-username`
 
     - content: |
