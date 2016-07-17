@@ -34,7 +34,7 @@ slides:
 
         ## Sign Up for GitHub
 
-        Go to the [GitHub Home Page](https://github.com/) and fill in your details.
+        Go to the [GitHub Home Page](https://github.com/){:target="_blank"} and fill in your details.
 
         Your username will also be used as your GitHub web address.
 
@@ -73,6 +73,10 @@ slides:
     - content: |
 
         ## Complete Your Profile
+
+        ![GitHub Profile Select Image](images/github-profile-select.png){:height="250"}
+
+        From the dropdown bar at the top right, select "Your profile"
 
         Click on "Edit Profile" to update your details.
 
@@ -142,6 +146,7 @@ slides:
         ## Sharing Your Profile
 
         People can find your GitHub profile at
+        
         `https://github.com/your-username`
 
     - content: |
