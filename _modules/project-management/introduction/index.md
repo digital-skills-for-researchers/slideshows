@@ -61,6 +61,15 @@ slides:
       Through project management processes we can work
       on minimising interference from these factors.
 
+  - notes: |
+
+      Another reason for project failure may be lack of resources.
+
+      For a physical product, a shipment may be unable to be fulfilled.
+
+      For a software product, a key perosn may leave the team.
+
+      Backup plans are important!
 
 
 
@@ -100,7 +109,7 @@ slides:
 
     notes: |
 
-      Waterfall works well when:
+      Waterfall is less terrible when:
 
       - The requirements for the finished product are complete, clear and stable
       - The effort required to complete the project can be easily predicted
@@ -210,7 +219,7 @@ slides:
 
     notes: |
 
-      Scrum defines a set of processes and rituals that the team follows in order to work in an Agile fashion.
+      Scrum defines a set of processes and communication requirements that the team follows in order to work in an Agile fashion.
 
       Scrum defines roles and responsibilities for team members. It also defines how meetings are run, how often and for how long.
 
