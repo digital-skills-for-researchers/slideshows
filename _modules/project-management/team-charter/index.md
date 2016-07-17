@@ -172,7 +172,7 @@ slides:
 
       - Daily meetings on Slack at 9am each work day
       - Make every effort to attend meetings in person
-      - Update our kanban board each morning before 9am
+      - Update our project status board each morning before 9am
       - Team members are expected to be on time for all meetings
       
 
