@@ -9,10 +9,12 @@ slides:
       # Digital Skills for Researchers
       _Course Purpose and Introduction_
 
+
+
   - class: left-aligned
     content: |
 
-      ## Science has a replication/reproducibility issue  
+      ## Science has a <br> replication/reproducibility issue  
       {:.center-aligned}
 
       ### Many fields
@@ -23,27 +25,40 @@ slides:
     notes: 
       Many fields have studies reporting very low replication rates
 
+
+  - content: |
+
+      ## We have the technology
+
+      Computation has becoming an increasingly large part of the scientific process
+      Data collection and storage, processing, analyses, visualization and conclusion all depend more and more on computation  
+
+
   - content: |
       ## Course Aims
-      By the end of this course you should have the knowledge and skills to publish reproducible science research 
+      By the end of this course you should have the knowledge 
+      and skills to publish reproducible science research. 
 
-      note: (and hopefully some of you will infact do that)
+      (and some of you may actually publish!)
 
 
 
   - content: |
       ## Course Philosophy
-      * Assessed on personal progress, not relative to peers
-      * Skills are means to an ends, not the goal
-      * Point 3
+
+      You will be assessed on personal progress, 
+      not assessed relative to your peers.
+
+      Skills are means to an ends, not the goal.
 
 
   - content: |
       ## Course Structure
-      * 11 modules
-      * Fist halve of the course - technical skills
-      * Second half - more conceptual using skills learnt in first half
-      * Ongoing assignments and working on your project    
+
+      * 9 modules
+      * Fist half of the course is technical skills
+      * Second half is more conceptual, using skills learnt in the first half
+      * Ongoing assignments and work on your project    
 
 
 
@@ -56,9 +71,7 @@ Science has a replication/reproducibility issue
 Many studies across many fields reporting low success rates for replication
 <50%
 
-We have the technology
-Computation has becoming an increasingly large part of the scientific process
-Data collection and storage, processing, analyses, visualization and conclusion all depend more and more on computation  
+
 
 Our research should be reproducible
 
@@ -77,9 +90,4 @@ The Structure of the course
 
 
 
-  
----
-=======
-Project report (x%) 
--->
->>>>>>> 4e8361ebda59a41fbcb0a101bb79875ce968ea86
+  ---
