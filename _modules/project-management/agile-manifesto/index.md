@@ -18,7 +18,7 @@ slides:
       Seventeen project management practitioners held a summit.
       
       The participants didn't agree about much, but they found 
-      consensus around **4 main values** and **12 guiding priciples**.
+      consensus around **4 main values** and **12 guiding principles**.
 
       And so, the Agile Manifesto was created.
 
