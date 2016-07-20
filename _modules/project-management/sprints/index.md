@@ -144,7 +144,10 @@ slides:
 
       ## Daily Work
 
-      Developers do work on a task. They may update the scrum board during the day, but they **must** before daily standup.
+      Developers do work each day on one or more tasks. 
+      
+      They may update the scrum board during the day, 
+      but they **must** before daily standup.
 
 
 
@@ -153,13 +156,31 @@ slides:
 
       ## Sprint Review
 
+      This meeting is used to share what was achieved during a sprint.
 
+      During review, the project is assessed against the 
+      sprint goal determined during the sprint planning meeting.
+
+    notes: |
+
+      The sprint review meeting is intentionally kept very informal, typically with rules forbidding the use of PowerPoint slides and allowing no more than two hours of preparation time for the meeting. A sprint review meeting should not become a distraction or significant detour for the team; rather, it should be a natural result of the sprint.
+
+      Participants in the sprint review typically include the product owner, the Scrum team, the ScrumMaster, management, customers and developers from other projects.
+
+      During the sprint review, the project is assessed against the sprint goal determined during the sprint planning meeting. Ideally, the team has completed each product backlog item brought into the sprint, but it's more important that they achieve the overall goal of the sprint.
+      
+      Credit: [Mountain Goat Software](https://www.mountaingoatsoftware.com/agile/scrum/sprint-review-meeting)
 
 
 
   - content: |
 
       ## Sprint Retrospective
+
+      This meeting is used to review the sprint from a team perspective.
+
+      The Scrum Master facilitates the meeting and guides team members
+      in discussing what went well and what could be done differently.
 
 
 
