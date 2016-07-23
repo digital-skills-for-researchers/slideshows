@@ -25,11 +25,7 @@ slides:
 
       notes: |
 
-        Blah Blah
-
-        Blah Blah
-
-
+    
 
 
     - class: left-aligned
@@ -45,7 +41,7 @@ slides:
 
         - Awareness of the storage services available at UoA
 
-        - Understand the legal and ethical issues around research data
+        - Be aware of the legal and ethical issues around research data (we'll come back to this later....)
 
         - Create a data management plan (DMP)
 
@@ -65,7 +61,12 @@ slides:
         ### How did it happen?
 
         ### Did you fix it?
+ 
 
+      notes: |
+      notes for this slide
+
+    
       cc:
         - title: socialize
           licence: CC-BY
@@ -81,9 +82,10 @@ slides:
       background-position: 70%
       content: |
 
-        # What is data?
+        # What are data?
 
-
+      notes: |
+      notes for this slide
 
       cc:
         - title: 逼格
