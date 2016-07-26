@@ -4,9 +4,6 @@
 - name: Project Management
   slug: project-management 
 
-- name: Data Management
-  slug: data-management
-
 - name: Shell
   slug: shell
 
