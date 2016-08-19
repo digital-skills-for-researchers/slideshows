@@ -51,12 +51,19 @@ slides:
 
     notes: |
 
+      Starting a theory
+      One of the most diffiulat aspects of creating a theory is working out exactaclly which aspect of the world you want the theory to coherently explain. A theory can begin as a vague hypothesis.
+
+      Likewise in TDD the customer you are building the software for may not really know what the problem they are trying to solve is, and this problem needs to be clarified
+
+
+
       In science you start with a theory. 
       Tests take the role of experiments
 
       Software design takes to the place of theory
 
-      Reproducability:
+      Reproducibility:
 
       Experimental Reproducibility is managed through continued use of automated tests
 
@@ -66,7 +73,9 @@ slides:
       In science we apply Occam's razor, like in TDD we want to choose the simplest thing that could possibly work
 
       Theory building is a social process.
-      For a scientific theory to become accepted 
+      For a scientific theory to become accepted it must survive scrutiny. Science doesn't move smoothly like the idealized vision it likes to present itself. Scientists can unconsciously and consciously bias their experiments, misanalyse, misinterpret and avoid results that show their ideas are wrong or faulty.
+
+      In TDD we try to avoid this issues. Tests are written up front, we are trying to avoid wishful thinking about how things go by stating upfront what expect. 
 
 
 
