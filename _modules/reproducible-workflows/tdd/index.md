@@ -52,7 +52,7 @@ slides:
     notes: |
 
       Starting a theory
-      One of the most diffiulat aspects of creating a theory is working out exactaclly which aspect of the world you want the theory to coherently explain. A theory can begin as a vague hypothesis.
+      One of the most difficult aspects of creating a theory is working out exactly which aspect of the world you want the theory to coherently explain. A theory can begin as a vague hypothesis.
 
       Likewise in TDD the customer you are building the software for may not really know what the problem they are trying to solve is, and this problem needs to be clarified
 
@@ -86,6 +86,10 @@ slides:
       
     notes: |
 
+      TDD keeps us focussed. No speculation. YAGNI.
+
+      Systemic, process. Never doubt about what do do next.
+
       It is a runnable form of the specification.
 
       This mean that you can see from the test cases:
@@ -94,11 +98,11 @@ slides:
       
       HOW the code should be called. The actual steps needed to do the tests are specified directly without any external scaffolding (databases are mocked out etc).
 
-      You get done faster
-
       Since you have the specification on runnable form, you are done when the full test suite passes. You may add more tests as you clarify things on a more detailed level, but as a basic principle you have a very clear and visible indicator of progress and when you are done.
 
       This means that you can tell when work is necessary or not (does it help pass a test) you end up needing to do less.
+
+      TDD is not the only agile software development methodology out there, and it's not necessarily the best. But you will build better software following a rigorous process. 
 
 
   - content: |
@@ -119,7 +123,8 @@ slides:
       Writing good tests isn't magic. There are a number of practices we can follow to help write better tests. Switching to writing our tests up front doesn't suddenly mean we will be writing good tests. 
 
   - content: |
-      ## Writing good tests
+      ## Writing good tests in TDD
+      - Test a single concept
       - It should be automated and repeatable.
       - It should be easy to implement.
       - It should be relevant tomorrow.
@@ -127,12 +132,18 @@ slides:
       - It should run quickly.
 
   - content: |
-      ## Writing good tests   
-      - It should be consistent in its results (it always returns the same result if you don’t change anything between runs).
+      ## More tips on writing good tests   
+      - It should be consistent in its results 
       - It should have full control of the unit under test.
-      - It should be fully isolated (runs independently of other tests).
+      - It should be fully isolated.
       - When it fails, it should be easy to detect what was expected and determine how to pinpoint the problem.
 
+    notes: |
+      It should be consistent in its results. It always returns the same result if you don’t change anything between runs
+
+      Some other external system shouldn't influence its behaviour. 
+
+      It should be fully isolated (runs independently of other tests).
 
 
   - content: |
