@@ -15,10 +15,6 @@ slides:
 
       Almost all software projects are attempting do something that hasn't been done before. That something new could be creating a new technology, applying an existing technology in a new domain, or people or an organisation doing something they haven't done previously.
 
-      Science comparison
-
-
-
       When you are writing software you often won't fully understand the technology you are using upfront, in your case this is probably very true, as you are learning how to program probably for the first time. 
 
       For the people you are building software for, this process can be even more painful. Taking a process you do perform based on experience and convention and translating it to software means having working towards having an exact specification can be really difficult.
@@ -49,6 +45,9 @@ slides:
   - content: |
       ## This sounds a bit like science..
 
+  - content: |
+      ![Models of TDD and the scientific method](images/tdd_and_science.png){: height="300"}
+
     notes: |
 
       Starting a theory
@@ -63,14 +62,19 @@ slides:
 
       Software design takes to the place of theory
 
-      Reproducibility:
+      Reproducibility is a core tenet of what science is. Scientific experiments need to be design so that they are reproducible, so others can verify that your results are correct. 
 
-      Experimental Reproducibility is managed through continued use of automated tests
+      Experimental Reproducibility is managed through continued use of automated tests. Continually running and passing our set of unit tests is a way of maintaining the reproducibility of the behaviours we have laid out in our tests. Other developers can look at your tests to understand what you are verifying when you run the,
 
-      In TDD small steps are used so it is clear what caused the tests to fail. This is similar to how a control tries to ensure a single change in an experiment.
+      In TDD small steps are used so it is clear what caused the tests to fail. This is similar to how a control is used to try to ensure a single change in an experiment.
 
       Theory simplicity:
-      In science we apply Occam's razor, like in TDD we want to choose the simplest thing that could possibly work
+      In science we apply Occam's razor. In TDD we want to choose the simplest and cleanest design that could possibly work and solve our problem.
+
+      Frequently in science theories are developed in an evolutionary way. They are a litte wrong, some alterations are needed to better describe experimental results or observations. Sometimes we will have a revolutionary change, think of going the shift from classical to quantum mechanics.
+
+      In TDD most tests we develop will be incremental, add some functionality or clarifying some behaviour. But every once in a while we will have to throw out large amounts of tests we wave written when we need to radically change how our software works. 
+
 
       Theory building is a social process.
       For a scientific theory to become accepted it must survive scrutiny. Science doesn't move smoothly like the idealized vision it likes to present itself. Scientists can unconsciously and consciously bias their experiments, misanalyse, misinterpret and avoid results that show their ideas are wrong or faulty.
@@ -148,6 +152,10 @@ slides:
 
   - content: |
       ## Naming tests
+
+      - Should be clear its a test
+      - Describe what it is testing
+      - Include expected outcome
     
     notes: |
       So far we have been lumping all our tests together inside a single function. There are a couple of issues with this. When a test fails, the remaining tests in the function  will not be run, as our test function will have encountered an error. Secondly, its hard to know exactly which test failed and why, we have to inspect the arguments we passed to our palindrome function to work out what we we were testing. So the first thing we need to do is split our tests into different functions, one function per test. After that we need to name our functions so that we can work out what they are testing solely based on the name. 

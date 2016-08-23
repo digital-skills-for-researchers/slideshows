@@ -11,12 +11,15 @@ slides:
       # Testing
    
     notes: |
-      Focus on testing today
+      Focus on testing today, and Test Driven Development
 
-
-      Testing is a crucial part of software development.
+      Testing is a crucial part of software development. Good programmers know that even if their program appears to work, there will be flaws and bugs present. 
 
       Whether we are part way writing some software or have potentially completed our software - how do we ensure that what we have done is correct.
+
+      The answer to this is testing.
+
+      Testing in turn leads to test driven development, where we develop by stating up front how we expect our programs to behave by writing tests. 
 
       Testing is a deep topic, can take a while to pick up.
 
@@ -68,7 +71,7 @@ slides:
 
       A lot of researchers,as Fabiana can attest, verify the results of their experiments when they get a result that they expect to see. This goes for software as well 
 
-      time in design, controls and calibration  >> time spent doing the experiment
+      Time in design, controls and calibration  >> time spent doing the experiment
 
       The same goes for software, you should spend much more time thinking about design, what problems you are trying to solve, and testing your software than the time you spend writing it up
 
@@ -100,11 +103,6 @@ slides:
       There are a lot more tests out there as well. 
 
       Enough time talking about tests. Lets start talking about how to write them.
-
-
-
-
-
 
 
 ---
