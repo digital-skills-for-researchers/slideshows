@@ -21,6 +21,10 @@ slideshows:
       title: Image Types and Formats
       description: None
 
+    - name: graph-types
+      title: Choosing the Right Graph
+      description: None
+
     - name: practical-techniques
       title: Practical Techniques
       description: None

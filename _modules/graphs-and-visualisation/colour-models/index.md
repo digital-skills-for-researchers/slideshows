@@ -43,7 +43,7 @@ slides:
 
         Something important to note about RGB is that the actual implementation, how each colour gets reproduced on a screen, is up to the maker of the screen. No two types of screens will reproduce the same RGB value in the same way. A certain shade of green on one screen will be slightly different on another. This is pretty noticeable when creating a series of slides on a laptop and then going and playing them through a projector.
 
-        We visualize the colour space of RGB as a cube. Each corner of the cube has each colour at full strength or zero strength, with colours inside the cube having values in between. Visualizing the RBG cube highlights that it is fairly unintuitive way to think about colour. Trying to adjust colours in  RGB for a desired affect is not a straightforward process.
+        We can visualize the colour space of RGB as a cube. Each corner of the cube has each colour at full strength or zero strength, with colours inside the cube having values in between. Visualizing the RBG cube highlights that it is fairly unintuitive way to think about colour. Trying to adjust colours in  RGB for a desired affect is not a straightforward process.
 
         . 
 
@@ -62,7 +62,7 @@ slides:
 
 
       notes: |
-        The HSL and HSV are alternative representations of the RGB colour model. They were designed to be a more intuitive way of viewing the RGB colour spectrum. RGB is useful when we are describing how to produce colours in a computer monitor, but now how to make a shade of green slightly more blue tinged for example.
+        The HSL and HSV are alternative representations of the RGB colour model. They were designed to be a more intuitive way of viewing the RGB colour spectrum. RGB is useful when we are describing how to produce colours in a computer monitor, but now how to make a shade of green slightly more blue tinged for example. It is highly unintuitive for design purposes. 
 
         In the HSL model the Hue of the colour is a angle between 0 and 360 degrees. Hue represents moving along the visible range of colour, from red  to yellow, green, blue, purple and then back to red  The Luminance is the brightness of the colour, 0% Luminance is black and 100% Luminance is white, with darker and lighter shades of the colour between.
 
@@ -89,6 +89,120 @@ slides:
         To make things more confusing, print uses different model(s) to digital. Most printed images use CMYK to produce images. CMYK is a _subtractive_ rather than _additive_ process, unlike RGB. The base colour is black (key) and colours are filtered out to create the spectrum of colour. 
 
         Finally, some things are printed in pantone colours, which use a specific set of colours with defined pigments. THe benefit of pantone colours is that the colour will be similar from printer to printer as they all have the same standard to follow.
+
+    - content: |
+      ## Practical Rules for Colour
+
+      Use color only when needed to serve a particular communication goal.
+    - content: |
+        ## Colour rules
+
+      notes: |
+
+      Use color only when needed to serve a particular communication goal.
+      We should only add color to an information display to achieve something in particular
+      Colour should be used meaningfully
+      Use different colors only when they correspond to differences of meaning
+      in the data.
+      When adding colour to a graph, think what is the purpose of this colour
+
+    - content: |
+      ## Showing Detail
+
+      notes: |
+      The key rule  for the use of colour in data visulizsation, luminance contrast is needed. Pairing black and white leads to the biggest contrast in brightness. The smaller the graphic we are dealing with, the greater the contrast we need. Likewise if our graphic is large it's not quite anything goes but you have a lot more leeway. 
+
+      We also use luminance contrast as a way to manage the viewers attention.
+      The aspects of our visualization with the highest contrast is where our attention will be drawn first.  Likewise features with lower contrast will be comparatively less noticeable.
+
+      It helps to think of luminance contrast as as finite resource. We only have so much we can spend on our graphic, so we should think wisely about what features we want to invest in.
+
+    - content: |
+      ## Avoid Oversaturation
+
+    notes: |
+      When we look at a graphic with too much saturated colour, it can be almost painful. 
+
+      Being selective with saturated colours lets us emphasis and hi light aspects more easily. 
+
+
+
+      notes: |
+
+    - content: |
+      ## Colour Coding Information
+
+      
+      notes: |
+        A key function of the use of colour in data viz is to encode information. First use is to enforce distinctness between categories of data, so that we can distinguish between different categories. The second is learnability, that the viewer comes to understand that one colour indicates a particular category of data. 
+
+        There are strong limits on how many distinct colours can be used on a graphic so a viewer can reliably understand what each colour is encoding. A number of different numbers have been reported between 6 and 12. The more colours we have the less easily we can distringuish between them, it gets easier to confuse one colour for another.
+
+
+
+    - content: |
+        ## Colour maps/palettes
+
+      notes: |
+
+        How we we choose a effective colour palette for our graphs
+
+        The typical/default colour map or palette used in Scientific Visualization is the rainbow colour map (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
+
+        The big issue with the Rainbow colour map is that it is not perceptually ordered. To remember the ordering most people use a mnemonic Roy G Biv or the like. In studies where people have been asked to place them in order the orderings they come up with vary. If asked to sort a series of shades of grey they place them in order of lightness to darkest, or the reverse. If your data has some sort of ordering, the rainbow colour map wont convent that. 
+
+        Perhaps one advantage of the rainbow colour map is familiarity, people are accustomed to seeing and interpreting it. And it is pretty and quite striking.
+
+        When choosing a colour map here are some principles we should follow
+
+        – The map yields images that are aesthetically pleasing.
+        – The map has a maximal perceptual resolution.
+        – The order of the colours should be intuitively the same for all people.
+        – The perceptual interpolation matches the underlying scalars of the map.
+        - distinct for all people, including colour-blind readers;
+        - distinct from black and white;
+        - distinct on screen and paper;
+
+        From [Kenneth Moreland  ](https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/ColorMapsExpanded.pdf)
+
+        Here are some tools which can help you pick or create a colour map
+
+        http://colorbrewer2.org/
+        https://color.adobe.com/create/color-wheel/
+        http://tools.medialab.sciences-po.fr/iwanthue/  
+        http://www.mrao.cam.ac.uk/~dag/CUBEHELIX/cubetry.html
+        http://paletton.com/
+
+        Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
+
+    - content: |
+      ## The Rainbow Colourmap
+      ![Don't use this](http://i.stack.imgur.com/uAyax.png)
+
+    - content: |
+      ## Perceptually iniform colourmaps
+      ![Isn't this better!](http://pong.tamu.edu/~kthyng/movies/txla_plots/salt/2010-07-30T00.png)
+
+    - content: |
+        ## Background Colour
+        Grey or White?
+
+      notes: |
+        May seem like a trite question
+
+        Hadley Wickham
+
+        "The grey background gives the plot a similar colour (in a typographical sense) to the remainder of the text, ensuring that the graphics fit in with the flow of a text without jumping out with a bright white background. Finally, the grey background creates a continuous field of colour which ensures that the plot is perceived as a single visual entity."
+
+        Reduced screen glare
+
+        Alot Colour maps been designed with a white background (for printing) in mind. Their perceptual properties will differ against a darker background.
+        Also using a white background allows you to optimise a graph for both electronic display and printing, rather than having to prepare a different printer-friendly version.
+
+
+
+
+
 
 
 

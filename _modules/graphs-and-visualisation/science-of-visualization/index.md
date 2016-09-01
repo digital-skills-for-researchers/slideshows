@@ -47,7 +47,7 @@ slides:
 
         Pre attentive Processing
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_A.gif)   ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_P.gif)
-        notes: |
+      notes: |
         Combing features that we notice pre attentively that are not unique we stop us notcing them pre attentively. In the image on the right there is a rec circle, but it doesnt jump out at us like it did before. It is no longer unique as there are both circles and red coloured shapes present in the image. 
 
         
@@ -63,7 +63,7 @@ slides:
 
     - content: |
         ## Post attentive visualization 
-        + Change blindess
+        Change blindess
         ![Spot the difference!](https://res.cloudinary.com/vayner/image/upload/v1458296601/braindecoder/rebelmouse--1882005548.gif)
  
       notes: |  

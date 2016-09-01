@@ -45,13 +45,19 @@ slides:
         Use the smallest effective differences (i.e., avoid bold colors, heavy lines, distracting labels and scales).
 
     - content: |
+        ## Narrative
+        notes: |
+          Minards chart has an excellent sense of narrative. People often talk about telling a story when creating graphics and visualizations. There is no need to follow this dogmatically but it can help clarify what you are trying to achieve. 
+          Guide. Highlight. Interpret.
+
+    - content: |
         ## Avoid Chart Junk
         ![alt text](http://1.bp.blogspot.com/-QZRaqE5OK1E/Tyl3KDwofOI/AAAAAAAAAWY/0yyupJsyER8/s1600/F1001E_A_large.gif)
       notes: |
 
-        Hopefully it is clear what chart junk is by looking at this graphic. Chart junk has been a bit of a contentious term; a safe definition is that it's an embliashment that doesnt add anything to the graphic.
+        Hopefully it is clear what chart junk is by looking at this graphic. Chart junk has been a bit of a contentious term; a safe definition is that it's an embellishment that doesn't add anything to the graphic.
 
-        You could argue that this graphic is visually striking, but the embalishments they have used, over lapping pie graphcs and the arrangment of pie graphs across the space of the image, dont add to our understanding of the image, they take away from it. 
+        You could argue that this graphic is visually striking, but the embellishments they have used, over lapping pie graphics and the arrangement of pie graphs across the space of the image, don't add to our understanding of the image, they take away from it. 
 
         This is a bit of an oversimplification. Its okay to make a graphic "junkier" if you feel it needs to be more striking or memorable. It is a trade off.
     - content: |
@@ -82,11 +88,11 @@ slides:
         * Marker transparency
         * Jitter
 
-        The other options is to change the number of dta points we are plotting. We could do this in a number of ways. We can combine or aggregate the data in some way, using the mean or median for example.
+        The other options is to change the number of data points we are plotting. We could do this in a number of ways. We can combine or aggregate the data in some way, using the mean or median for example.
 
-        We could break up the data into sub plots using small muliples (see next slide)
+        We could break up the data into sub plots using small multiples (see next slide)
 
-        Or, potenitally you could statistically sample the data and plot the sample.
+        Or, potentially you could statistically sample the data and plot the sample.
 
 
 
@@ -105,44 +111,13 @@ slides:
 
         In the example shown we have a [] graph, but we are not limited to using only the standard suite of graphs. Small multiples can be used with all varieties of techniques, social network visualizations, maps, whatever. 
 
-        WHen using small multiples, you need to be conscious that each individual graph isn't overtly complicated. Comparisons between each graph become quite diffiuclt otherwise. 
+        WHen using small multiples, you need to be conscious that each individual graph isn't overtly complicated. Comparisons between each graph become quite difficult otherwise. 
 
     - content: |
         ## Layering and separating
         ![A simple example of layering](images/stravinsky.png)
 
-    - content: |
-        ## Colour rules
 
-
-      notes: |
-        The typical/default colour map or palette used in Scientific Visualization is the rainbow colour map (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
-
-        The big issue with the Rainbow colour map is that it is not perceptually ordered. To remember the ordering most people use a mnemonic Roy G Biv or the like. In studies where people have been asked to place them in order the orderings they come up with vary. If asked to sort a series of shades of grey they place them in order of lightness to darkest, or the reverse. If your data has some sort of ordering, the rainbow colour map wont convent that. 
-
-        Perhaps one advantage of the rainbow colour map is familiarity, people are accustomed to seeing and interpreting it. And it is pretty and quite striking.
-
-        When choosing a colour map here are some principles we should follow
-
-        – The map yields images that are aesthetically pleasing.
-        – The map has a maximal perceptual resolution.
-        – The order of the colours should be intuitively the same for all people.
-        – The perceptual interpolation matches the underlying scalars of the map.
-        - distinct for all people, including colour-blind readers;
-        - distinct from black and white;
-        - distinct on screen and paper;
-
-        From [Kenneth Moreland  ](https://cfwebprod.sandia.gov/cfdocs/CompResearch/docs/ColorMapsExpanded.pdf)
-
-        Here are some tools which can help you pick or create a colour map
-
-        http://colorbrewer2.org/
-        https://color.adobe.com/create/color-wheel/
-        http://tools.medialab.sciences-po.fr/iwanthue/  
-        http://www.mrao.cam.ac.uk/~dag/CUBEHELIX/cubetry.html
-        http://paletton.com/
-
-        Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
     
     - content: |
         ## The F pattern
@@ -179,6 +154,22 @@ slides:
 
          Going beyond this point inst [something], Make graphics that people want to look at. 
 
+    - content: |
+        ## Consistency
+        notes: |
+        Having effective, individual, graphics is great but they can lose their effectiveness a whole if there is no consistency in design from graphic to graphic. 
+
+        We don't want the view to want to have to re learn encodings when viewing different graphic. Consistency will encourage familiarity. Remember that we are primed to notice differences. We want the view to notice differences in the data, not the medium. 
+
+        Stick to your "Style Guide".
+
+
+    - content: |
+        ## Using space effectively
+
+        notes: |
+          Bank to 45 degrees - maximize disrimability. Broad heuristic. Get correct aspect ratio from this. Obviously you may have to make concessions for where graphic will end up based on formatting. 
+          Transform data - log etc. Depending on data being displayed. Avoid scale breaks
 
 
 

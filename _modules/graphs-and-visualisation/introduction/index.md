@@ -8,6 +8,7 @@ slides:
     - content: |
 
         # Introduction to Graphs and Visualization 
+        "to make certain phenomena and portions of reality visible and understandable; many of these phenomena are not naturally accessible to the bare eye, and many are not even of visual nature"(Joan Costa)
 
 
 
@@ -34,10 +35,13 @@ slides:
 
         We are going to be focussing on Data Visualization, which we will take to mean "information which has been abstracted in some schematic form, including attributes or variables for the units of information " [Friendly](http://www.math.usu.edu/~symanzik/teaching/2009_stat6560/Downloads/Friendly_milestone.pdf). Data visualization encompasses statistical graphics, and plots amongst other things.
 
+        We can think of information visualization as a model. We are trying to abstract our representation of the data while retaining what we think the core truths of the data. There is a famous saying about models, "All models are wrong but some are useful". Lets keep that in mind while we think about and create visualization. 
+
+
     - content: |
         ## A quick history
-        
 
+        ![A Babylonian map on a clay tablet](https://upload.wikimedia.org/wikipedia/commons/c/ce/Clay_tablet_containing_plan_of_Nippur_%28Hilprecht_EBL_1903%29.jpg)
 
       notes: |
 
@@ -56,6 +60,7 @@ slides:
     - content: |
         ## The modern era
         High dimensional, interactive and dynamic  
+        ![A network diagram](https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png)
 
 
       notes: |
@@ -73,51 +78,33 @@ slides:
 
         * Provide context and link data
         * Develop new insights
+        * Essential part of scientific commuinication
         {:.fragment} 
 
       notes: |
+        "To make certain phenomena and portions of reality visible and understandable; many of these phenomena are not naturally accessible to the bare eye, and many are not even of visual nature"
         Effective science communication makes you a better scientist
 
-       
-    - class: center-aligned
-      background-image: https://upload.wikimedia.org/wikipedia/commons/e/ec/Anscombe%27s_quartet_3.svg
-      background-size: 30%
-      background-position: 50% 70%
+        Time spent in developing skills in effective visualization will pay itself back many times.
+
+        Effective visualization not only makes your work more understandable to others but to yourself as well.
+
+        Over time you will develop a library of techniques that you can use, as well a more literal library of snippets of code that can be re used
 
 
+    - content: |
+        ## New Insights - Anscombes quartet
+        ![Alt text](https://upload.wikimedia.org/wikipedia/commons/e/ec/Anscombe%27s_quartet_3.svg)
 
-      content: |
-        ## New Insights
-
-
-        | Property|Value|
-        |---|---|
-        | Mean of x in each case | 9 (exact)| 
-        | Sample variance of x in each case | 11(exact)| 
-        | Mean of y in each case  | 7.50 (to 2 decimal places)|         
-        | Sample variance of y in each case| 4.122 (to 3 decimal places)| 
-        | Correlation between x and y in each case | 0.816 (to 3 decimal places)|                                 |
-        | Linear regression line in each case| y = 3.00 + 0.500x (to 2 and 3 decimal places, respectively) |
+    - content: |
+        ## New Insights - Anscombes quartet 
+        ![Statistics for the quartet](images/anscombes_table.png)
 
       notes: |
         Pictured on the slide are the graphs of four data sets called Anscombes quartet. Each data set has the same mean and standard deviation, along with variance, correlation and linear regression. So if we were to solely look at the numeric summary statistics  of this data, we could come to the conclusion that they are pretty similar data sets. But by plotting them we can quickly see there are some big differences between the different data sets.
 
 
 
-
-    - content: |
-
-        ## Visualization is an investment
-
-        Effective visualization not only makes your work more understandable to others but to yourself as well.
-        {:.left-aligned}
-
-        Time spent in developing skills in effective visualization will pay itself back many times.
-        {:.left-aligned}
-
-
-      notes: |
-        Over time you will develop a library of techniques that you can use, as well a more literal library of snippets of code that can be re used
 
     - content: |
 
