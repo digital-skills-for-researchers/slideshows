@@ -91,46 +91,47 @@ slides:
         Finally, some things are printed in pantone colours, which use a specific set of colours with defined pigments. THe benefit of pantone colours is that the colour will be similar from printer to printer as they all have the same standard to follow.
 
     - content: |
-      ## Practical Rules for Colour
+        ## Practical Rules for Colour
 
-      Use color only when needed to serve a particular communication goal.
+        Use color only when needed to serve a particular communication goal.
+
     - content: |
         ## Colour rules
 
       notes: |
 
-      Use color only when needed to serve a particular communication goal.
-      We should only add color to an information display to achieve something in particular
-      Colour should be used meaningfully
-      Use different colors only when they correspond to differences of meaning
-      in the data.
-      When adding colour to a graph, think what is the purpose of this colour
+        Use color only when needed to serve a particular communication goal.
+        We should only add color to an information display to achieve something in particular
+        Colour should be used meaningfully
+        Use different colors only when they correspond to differences of meaning
+        in the data.
+        When adding colour to a graph, think what is the purpose of this colour
 
     - content: |
-      ## Showing Detail
+        ## Showing Detail
 
       notes: |
-      The key rule  for the use of colour in data visulizsation, luminance contrast is needed. Pairing black and white leads to the biggest contrast in brightness. The smaller the graphic we are dealing with, the greater the contrast we need. Likewise if our graphic is large it's not quite anything goes but you have a lot more leeway. 
+        The key rule  for the use of colour in data visulizsation, luminance contrast is needed. Pairing black and white leads to the biggest contrast in brightness. The smaller the graphic we are dealing with, the greater the contrast we need. Likewise if our graphic is large it's not quite anything goes but you have a lot more leeway. 
 
-      We also use luminance contrast as a way to manage the viewers attention.
-      The aspects of our visualization with the highest contrast is where our attention will be drawn first.  Likewise features with lower contrast will be comparatively less noticeable.
+        We also use luminance contrast as a way to manage the viewers attention.
+        The aspects of our visualization with the highest contrast is where our attention will be drawn first.  Likewise features with lower contrast will be comparatively less noticeable.
 
-      It helps to think of luminance contrast as as finite resource. We only have so much we can spend on our graphic, so we should think wisely about what features we want to invest in.
+        It helps to think of luminance contrast as as finite resource. We only have so much we can spend on our graphic, so we should think wisely about what features we want to invest in.
 
     - content: |
-      ## Avoid Oversaturation
+        ## Avoid Oversaturation
 
     notes: |
-      When we look at a graphic with too much saturated colour, it can be almost painful. 
+        When we look at a graphic with too much saturated colour, it can be almost painful. 
 
-      Being selective with saturated colours lets us emphasis and hi light aspects more easily. 
+        Being selective with saturated colours lets us emphasis and hi light aspects more easily. 
 
 
 
       notes: |
 
     - content: |
-      ## Colour Coding Information
+        ## Colour Coding Information
 
       
       notes: |
@@ -176,12 +177,12 @@ slides:
         Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
 
     - content: |
-      ## The Rainbow Colourmap
-      ![Don't use this](http://i.stack.imgur.com/uAyax.png)
+        ## The Rainbow Colourmap
+        ![Don't use this](http://i.stack.imgur.com/uAyax.png)
 
     - content: |
-      ## Perceptually iniform colourmaps
-      ![Isn't this better!](http://pong.tamu.edu/~kthyng/movies/txla_plots/salt/2010-07-30T00.png)
+        ## Perceptually iniform colourmaps
+        ![Isn't this better!](http://pong.tamu.edu/~kthyng/movies/txla_plots/salt/2010-07-30T00.png)
 
     - content: |
         ## Background Colour
@@ -198,12 +199,6 @@ slides:
 
         Alot Colour maps been designed with a white background (for printing) in mind. Their perceptual properties will differ against a darker background.
         Also using a white background allows you to optimise a graph for both electronic display and printing, rather than having to prepare a different printer-friendly version.
-
-
-
-
-
-
 
 
 ---

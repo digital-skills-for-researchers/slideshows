@@ -59,10 +59,10 @@ slides:
         * Deviation
         * Frequency distribution
         * Correlation
+        * Multivariate analysis
         From Stephen Few
       notes: |
-
-      Its helpful to have a framework to think about
+        Its helpful to have a framework to think about
 
     - content: |
         ## Nominal comparison
@@ -77,8 +77,8 @@ slides:
          Rate of change.
          If there is a trend in our data how strong is it. How much change do we expect between each observation or data value.
           Co-variation. 
-          How are two time series related to one another. When one series changes how does the other reflect that change. Is it simaltaneous or does it lag bhind. Does it move in the same direction or the opposite.  
-          Cycles. Is there a particuarl pattern that repeats over a certain time frame. Does the values always peak at a certain time say 5 minutes afer the start of an experiemtn. 
+          How are two time series related to one another. When one series changes how does the other reflect that change. Is it simultaneous or does it lag behind. Does it move in the same direction or the opposite.  
+          Cycles. Is there a particularly pattern that repeats over a certain time frame. Does the values always peak at a certain time say 5 minutes after the start of an experiment. 
           Exceptions. When does a data value fall outside the range of what would expect,accounting for trends, cycles and variations. 
 
 
@@ -96,6 +96,29 @@ slides:
 
     - content: |
         ## Correlation
+
+      notes: |
+        Correlation analysis looks at how quantitative variables relate to and affect one another. How do one set of variables vary with regard to another, how much do they vary, how do they vary and why do they vary.
+
+        Want a graphical representation of direction shape and strength of correlation between variables. 
+
+        Scatter plots and scatter plot matrices. 
+
+    - content: |
+        ## Multivariate Analysis
+        
+        ![Parallel co-ordinate plot](/images/parallel_co_ordinate_plot.png)
+        {:.fragment}
+
+
+      notes: |
+        WHat happens when we have higher dimensional data? How can we represent the relationship between several different variables in a single graph?
+
+        A number of methods out there but only one is particularly effective - Parallel co-ordinate plots
+
+        Each variable is represented by one of the vertical axis.
+        A single, multivalued data value is represented by a line going from point to point on each axis
+        Variables are typically normalized so that their min and max     values correspond to the top and bottom of their respective axis
 
 
 ---
