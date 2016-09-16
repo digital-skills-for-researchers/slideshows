@@ -3,6 +3,7 @@ layout: slideshow
 title: Introduction to Programming with Python
 slides:
 
+
     - content: |
         ## Perception of colour
         ![Colour Sensitivty](https://upload.wikimedia.org/wikipedia/commons/9/94/1416_Color_Sensitivity.jpg)
@@ -19,9 +20,6 @@ slides:
         An extremely important technical aspect of visualization is how do we represent colour? What is a computational representation of colour that we can store and manipulate? 
 
         To represent colour digitally we use a _colour model_. A colour model aims to represent a wide range of colours using a few primary colours that are mixed in some way.
-
-
-
 
     - class: center-aligned
       background-image: https://upload.wikimedia.org/wikipedia/commons/a/af/RGB_color_solid_cube.png
@@ -45,7 +43,7 @@ slides:
 
         We can visualize the colour space of RGB as a cube. Each corner of the cube has each colour at full strength or zero strength, with colours inside the cube having values in between. Visualizing the RBG cube highlights that it is fairly unintuitive way to think about colour. Trying to adjust colours in  RGB for a desired affect is not a straightforward process.
 
-        . 
+        
 
 
     - class: center-aligned
@@ -121,7 +119,7 @@ slides:
     - content: |
         ## Avoid Oversaturation
 
-    notes: |
+      notes: |
         When we look at a graphic with too much saturated colour, it can be almost painful. 
 
         Being selective with saturated colours lets us emphasis and hi light aspects more easily. 

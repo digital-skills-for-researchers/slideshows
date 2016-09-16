@@ -17,7 +17,8 @@ slides:
 
     - content: |
         ## Raster graphics
-        ![Look at the pixels!](images/milford_zoom.png)
+        ![Look at the pixels!](images/milford.jpg){:height="240"}
+        ![Look at the pixels!](images/milford_zoom.png){:height="240"}
       notes: |
         We see an example of a raster graphic every time we see a photo
         alpha channel. 
@@ -31,7 +32,9 @@ slides:
 
     - content: | 
         ## Bit depth/Colour depth
-        ![Look at the pixels!](images/bit_depth.png)
+        ![Look at the pixels!](images/milford.jpg){:height="240"}
+        ![Look at the pixels!](images/milford_8_bit.gif){:height="240"}
+
 
       notes: |
         A important quality of raster images is the bit depth. The bit depth or colour depth is the number of bits used to indicate level of colour for each colour in a pixel.  

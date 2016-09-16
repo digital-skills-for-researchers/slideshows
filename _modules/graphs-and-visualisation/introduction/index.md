@@ -41,7 +41,7 @@ slides:
     - content: |
         ## A quick history
 
-        ![A Babylonian map on a clay tablet](https://upload.wikimedia.org/wikipedia/commons/c/ce/Clay_tablet_containing_plan_of_Nippur_%28Hilprecht_EBL_1903%29.jpg)
+        ![A Babylonian map on a clay tablet](https://upload.wikimedia.org/wikipedia/commons/c/ce/Clay_tablet_containing_plan_of_Nippur_%28Hilprecht_EBL_1903%29.jpg){:height="480"}
 
       notes: |
 
@@ -55,12 +55,12 @@ slides:
     - content: |
         ## A quick history    
         William Playfair invents line, area, bar and pie charts. 
-        ![Timeseries](https://upload.wikimedia.org/wikipedia/commons/d/d8/Playfair_TimeSeries.png)
+        ![Timeseries](https://upload.wikimedia.org/wikipedia/commons/d/d8/Playfair_TimeSeries.png){:height="480"}
 
     - content: |
         ## The modern era
         High dimensional, interactive and dynamic  
-        ![A network diagram](https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png)
+        ![A network diagram](https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png){:height="480"}
 
 
       notes: |
@@ -94,11 +94,11 @@ slides:
 
     - content: |
         ## New Insights - Anscombes quartet
-        ![Alt text](https://upload.wikimedia.org/wikipedia/commons/e/ec/Anscombe%27s_quartet_3.svg)
+        ![Anscombes quartet](https://upload.wikimedia.org/wikipedia/commons/e/ec/Anscombe%27s_quartet_3.svg){:height="480"}
 
     - content: |
         ## New Insights - Anscombes quartet 
-        ![Statistics for the quartet](images/anscombes_table.png)
+        ![Statistics for the quartet](images/anscombes_table.png){:height="400"}
 
       notes: |
         Pictured on the slide are the graphs of four data sets called Anscombes quartet. Each data set has the same mean and standard deviation, along with variance, correlation and linear regression. So if we were to solely look at the numeric summary statistics  of this data, we could come to the conclusion that they are pretty similar data sets. But by plotting them we can quickly see there are some big differences between the different data sets.
@@ -110,7 +110,7 @@ slides:
 
         ## Principles of Visualization (From Tufte)
 
-        * Show the data "truthfully", don't distort it
+        * Show the data truthfully, don't distort it
         * Allow the viewer to understand the most ideas in the shortest time
         * Encourage the viewer to thinking about the form or substance of the data, not the method of display
         * Reveal the structure in the data at a variety of scales

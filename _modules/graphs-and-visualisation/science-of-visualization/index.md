@@ -36,16 +36,26 @@ slides:
 
         Attentive perception transforms the low level features from pre attentive into higher order features and representations.
 
-        Its no coincidence that alot of the markers and channels we use in visualization are objects and distinctions we pre-attentively process.
+        Processing tasks that we perform quickly (<250 ms) and in paralell are generally considered pre attentive.
+
+        There are certain features that, when we look at something, we notice very quickly, like shape, colour and orientation.
+
+         Its no coincidence that alot of the features we use in visualization are objects and distinctions we pre-attentively process.
 
 
+
+
+       
+
+    - content: |
+        ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/shape_A.gif) ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/shape_P.gif)   
 
     - content: |
 
-        ## The Science of Perception and Visualization
+        ## Pre attentive Processing
         Conjunction
 
-        Pre attentive Processing
+        
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_A.gif)   ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_P.gif)
       notes: |
         Combing features that we notice pre attentively that are not unique we stop us notcing them pre attentively. In the image on the right there is a rec circle, but it doesnt jump out at us like it did before. It is no longer unique as there are both circles and red coloured shapes present in the image. 
@@ -84,15 +94,7 @@ slides:
 
     - content: |
 
-        ## The Science of Perception and Visualization
-
-        ### Further Features
-        + Orientation 
-        + Size
-        + Density 
-        {:.left-aligned}
-
-
+        ## Further Features/Markers
     - content: |
         ![alt text](http://global.qlik.com/~/media/Images/Blog/entries/posts-large/VisualEncoding-Large_625x349.ashx)
 
