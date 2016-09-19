@@ -31,9 +31,12 @@ slides:
 
 
     - content: | 
-        ## Bit depth/Colour depth
-        ![Look at the pixels!](images/milford.jpg){:height="240"}
-        ![Look at the pixels!](images/milford_8_bit.gif){:height="240"}
+        ### Bit depth/Colour depth
+        ![Look at the pixels!](images/milford.jpg){:height="480"}
+
+    - content: |
+        ### Bit depth/Colour depth    
+        ![Look at the pixels!](images/milford_4_bit.png){:height="480"}
 
 
       notes: |

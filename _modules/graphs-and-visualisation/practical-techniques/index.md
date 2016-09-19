@@ -4,11 +4,11 @@ title: Practical Visualization Techniques
 slides:
 
     - content: | 
-        ## Practical Visualization Techniques
+        ### Practical Visualization Techniques
 
     - content: |
 
-        ## Principles of Visualization (From Tufte)
+        ### Principles of Visualization (From Tufte)
 
         * Show the data "truthfully", don't distort it
         * Allow the viewer to understand the most ideas in the shortest time
@@ -45,14 +45,14 @@ slides:
         Use the smallest effective differences (i.e., avoid bold colors, heavy lines, distracting labels and scales).
 
     - content: |
-        ## Narrative
+        ### Narrative
         notes: |
           Minards chart has an excellent sense of narrative. People often talk about telling a story when creating graphics and visualizations. There is no need to follow this dogmatically but it can help clarify what you are trying to achieve. 
           Guide. Highlight. Interpret.
 
     - content: |
-        ## Avoid Chart Junk
-        ![alt text](http://1.bp.blogspot.com/-QZRaqE5OK1E/Tyl3KDwofOI/AAAAAAAAAWY/0yyupJsyER8/s1600/F1001E_A_large.gif)
+        ### Avoid Chart Junk
+        ![alt text](http://1.bp.blogspot.com/-QZRaqE5OK1E/Tyl3KDwofOI/AAAAAAAAAWY/0yyupJsyER8/s1600/F1001E_A_large.gif){: .center-aligned height="400"} 
       notes: |
 
         Hopefully it is clear what chart junk is by looking at this graphic. Chart junk has been a bit of a contentious term; a safe definition is that it's an embellishment that doesn't add anything to the graphic.
@@ -62,20 +62,20 @@ slides:
         This is a bit of an oversimplification. Its okay to make a graphic "junkier" if you feel it needs to be more striking or memorable. It is a trade off.
     - content: |
 
-        ## Avoid distortion
+        ### Avoid distortion
 
 
     - content: |
 
-        ## Encoding with size
+        ### Encoding with size
 
         Graphic dimension <= Data dimension
         ![Don't do this](images/purchasing_power.png)
 
 
     - content: |
-        ## Avoid overplotting
-
+        ### Avoid overplotting
+        ![Avoid overplotting](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.November/1537.comp4_4000_2x.png)
 
 
       notes: |
@@ -99,13 +99,13 @@ slides:
 
     - content: |
 
-        ## Small multiples 
-        ![Small multiples](http://danmaclean.github.io/content/images/2015/07/small_multiples.png)      
+        ### Small multiples 
+        ![Small multiples](http://danmaclean.github.io/content/images/2015/07/small_multiples.png){: .center-aligned height="400"}       
 
     - content: |
 
-        ## Small multiples
-        ![alt text](https://en.wikipedia.org/wiki/Small_multiple#/media/File:The_Horse_in_Motion.jpg)
+        ### Small multiples
+        ![alt text](https://upload.wikimedia.org/wikipedia/commons/7/73/The_Horse_in_Motion.jpg){: .center-aligned height="400"} 
 
         Small multiples is a very simple but powerful technique. With small multiples we are taking a data set, and splitting up/disaggregating it by categories we are interested in. 
 
@@ -114,13 +114,13 @@ slides:
         WHen using small multiples, you need to be conscious that each individual graph isn't overtly complicated. Comparisons between each graph become quite difficult otherwise. 
 
     - content: |
-        ## Layering and separating
+        ### Layering and separating
         ![A simple example of layering](images/stravinsky.png)
 
 
     
     - content: |
-        ## The F pattern
+        ### The F pattern
         [The F pattern](https://media.nngroup.com/media/editor/alertbox/f_reading_pattern_eyetracking.jpg)
         notes: |
         When we read formatted text (Headings, paragraphs etc) we read it in a F pattern (if we read left to right otherwise it is the reverse. Pictured is a website with a heat map of where users look on the website, from tracking their eyes. The areas most frequently looked at follow a F pattern. This is now a very common pattern for how content is arranged in websites.
@@ -133,7 +133,7 @@ slides:
 
     - content: |
 
-        ## Iterate
+        ### Iterate
 
 
 
@@ -147,7 +147,7 @@ slides:
         
 
     - content: |
-        ## Aesthetics
+        ### Aesthetics
 
       notes: |
         Don't be afraid of spending time to make your graphics look nice beyond the point of a serviceable level of attractiveness. Graphics are not just something you throw into a report and then forget about them. 
@@ -155,7 +155,7 @@ slides:
          Going beyond this point inst [something], Make graphics that people want to look at. 
 
     - content: |
-        ## Consistency
+        ### Consistency
         notes: |
         Having effective, individual, graphics is great but they can lose their effectiveness a whole if there is no consistency in design from graphic to graphic. 
 
@@ -165,64 +165,65 @@ slides:
 
 
     - content: |
-        ## Using space effectively
+        ### Using space effectively
 
-        notes: |
-          Bank to 45 degrees - maximize disrimability. Broad heuristic. Get correct aspect ratio from this. Obviously you may have to make concessions for where graphic will end up based on formatting. 
-          Transform data - log etc. Depending on data being displayed. Avoid scale breaks
+        ![Banking examples](https://eagereyes.org/wp-content/uploads/2013/06/aspect-ratios.png)
 
+      notes: |
+        Bank to 45 degrees - maximize disrimability. Broad heuristic. Get correct aspect ratio from this. Obviously you may have to make concessions for where graphic will end up based on formatting. 
+        Transform data - log etc. Depending on data being displayed. Avoid scale breaks
 
-
-    - content: |
-
-        ## Tables
-
-        + If you can effectively convey information with a graph, use a graph
-
-        + Tables still have a place, most often as a reference
 
 
     - content: |
 
-        ## General rules for using tables
+        ### Tables
+
+        * If you can effectively convey information with a graph, use a graph
+        * Tables still have a place, most often as a reference
+
+
+    - content: |
+
+        ### General rules for using tables
         * Several smaller tables are better than one large table
         * Structure the table for how your audience will use the data
         * Arrange rows and columns by some sort of context - size, name etc
 
     - content: | 
-        ## Use an Anchor figure
+        ### Use an Anchor figure
         Hilight the principle data points you want compared to the rest of the data
-        ![alt text](http://stats.blogoverflow.com/files/2012/02/table_Feinberg.png)
+        ![alt text](http://stats.blogoverflow.com/files/2012/02/table_Feinberg.png){: .center-aligned height="400"} 
 
     - content: | 
-        ## Colour lines
+        ### Colour lines
         Improves readability remarkably, especially for larger tables
         ![alt text](http://media.24ways.org/2007/07/illi_7.gif)
 
 
     - content: | 
-        ## Combine Tables and Graphs
+        ### Combine Tables and Graphs
         Show trends/patterns in data as well as exact values
-        ![alt text](http://www.perceptualedge.com/images/example2improvedsolution.GIF)
+        ![alt text](http://www.perceptualedge.com/images/example2improvedsolution.GIF){: .center-aligned height="400"} 
 
 
     - content: |
-        ## Sparklines   
+        ### Sparklines   
         Show shape and variation of data 
         ![alt text](http://i.stack.imgur.com/C463D.png)
 
     - content: |
-        ## Visualizing high dimensional/ complex data    
+        ### Visualizing high dimensional/ complex data    
 
-        ![alt text](https://c1.staticflickr.com/7/6142/5920564485_d34dbc2549_b.jpg)
+        ![alt text](https://c1.staticflickr.com/7/6142/5920564485_d34dbc2549_b.jpg){: .center-aligned height="400"} 
 
-
-    - content: |
-        ## Visualizing high dimensional/ complex data  
-        ![alt text](https://archinate.files.wordpress.com/2015/05/edu-workshop-tableaupublic-datadriven1.png)
 
     - content: |
-        ## Explore your options, there is a whole [zoo](http://queue.acm.org/detail.cfm?id=1805128) of choices out there
+        ### Visualizing high dimensional/ complex data  
+        ![alt text](https://archinate.files.wordpress.com/2015/05/edu-workshop-tableaupublic-datadriven1.png){: .center-aligned height="400"} 
+
+    - content: |
+        ### Explore your options, there is a whole [zoo](http://queue.acm.org/detail.cfm?id=1805128) of choices out there
         There might not be an established solution yet  ¯\\_(ツ)_/¯ so be creative
       notes: |
         http://www.visual-literacy.org/periodic_table/periodic_table.html#

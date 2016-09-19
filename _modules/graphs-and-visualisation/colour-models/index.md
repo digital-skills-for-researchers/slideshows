@@ -1,16 +1,22 @@
 ---
 layout: slideshow
-title: Introduction to Programming with Python
+title: Colour
 slides:
 
 
     - content: |
-        ## Perception of colour
-        ![Colour Sensitivty](https://upload.wikimedia.org/wikipedia/commons/9/94/1416_Color_Sensitivity.jpg)
+        ### Perception of colour
+        ![Colour Sensitivty](https://upload.wikimedia.org/wikipedia/commons/9/94/1416_Color_Sensitivity.jpg){: .center-aligned height="400"}
 
       notes: |
-        Three types of colour receptor. Tuned to Short medium and long wave
-        When light comes falls on the retina, the different receptors will respond at different levels depending on their tuning. Combining their output creates the perception of the colour of the light. 
+
+        In retina three types of cells exist that are used to perceive light, rods, cones and some other cells that dont have a short name. Cones are the cells responsible for the peception of colour. 
+
+        Three types of colour receptor cells. Tuned to Short medium and long wave lengths.
+
+        When light comes falls on the retina, the different receptors will respond at different levels depending on their tuning. 
+
+        Combining their output creates the perception of the colour of the light. 
 
         From the sensitivity graph you have probably noticed that we have an even response across the spectrum of visible colour. If you sum up the response curves you'll see that we perceive greenish colours more brightly.
 
@@ -21,18 +27,16 @@ slides:
 
         To represent colour digitally we use a _colour model_. A colour model aims to represent a wide range of colours using a few primary colours that are mixed in some way.
 
-    - class: center-aligned
-      background-image: https://upload.wikimedia.org/wikipedia/commons/a/af/RGB_color_solid_cube.png
-      background-size: 30%
-      background-position: 80%
-      content: |
-        ## Modelling Colour
+    - content: |
+        ### Modelling Colour
 
         * RGB  Colour Model
         * Represents colour as a triple (R,G,B)
         * What most displays use 
         * Device independent implementation
-        {:.left-aligned}
+
+        ![RGB Cube](https://upload.wikimedia.org/wikipedia/commons/a/af/RGB_color_solid_cube.png){: .center-aligned height="400"} 
+
       notes: |
 
         The colour model you are most likely to be familiar with is the RGB model. In the RBG model we represent colour a a triple of three numbers, with one number for each of Red, Green and Blue.
@@ -45,18 +49,13 @@ slides:
 
         
 
-
-    - class: center-aligned
-      background-image: https://upload.wikimedia.org/wikipedia/commons/0/0d/HSV_color_solid_cylinder_alpha_lowgamma.png
-      background-size: 30%
-      background-position: 50% 90%
-      content: |
-        ## Modelling Colour
-
+    - content: |
+        ### Modelling Colour
         * HSV (Hue Saturation Value)/HSL (Hue Saturation Lightness) Colour Models
         * Designed to be more intuitive than RGB
         * Can convert perfectly back and forth to RGB
         * Represents colour as a triple (H,S,V)
+        ![HSV](https://upload.wikimedia.org/wikipedia/commons/0/0d/HSV_color_solid_cylinder_alpha_lowgamma.png){: .center-aligned height="400"} 
 
 
       notes: |
@@ -71,30 +70,28 @@ slides:
         While HSL/HSV let us describe colour in perceptual manner, they are not perceptually uniform. (Example?)
 
 
-        
-    - class: center-aligned
-      background-image: https://upload.wikimedia.org/wikipedia/commons/f/f9/CMYK_channels_skala.jpg
-      background-size: 30%
-      background-position: 70%
-      content: |
-        ## Modelling Colour
+
+    - content: |
+        ### Modelling Colour
 
         * Other colour models exist that cover wider range of colour
         * CMYK (Cyan, Magenta, Yellow, Key) - 4 channels 
         * Pantone
-    
+        ![CMYK](https://upload.wikimedia.org/wikipedia/commons/f/f9/CMYK_channels_skala.jpg){: .center-aligned height="400"}
+                         
+
       notes: |
         To make things more confusing, print uses different model(s) to digital. Most printed images use CMYK to produce images. CMYK is a _subtractive_ rather than _additive_ process, unlike RGB. The base colour is black (key) and colours are filtered out to create the spectrum of colour. 
 
         Finally, some things are printed in pantone colours, which use a specific set of colours with defined pigments. THe benefit of pantone colours is that the colour will be similar from printer to printer as they all have the same standard to follow.
 
     - content: |
-        ## Practical Rules for Colour
+        ### Practical Rules for Colour
 
         Use color only when needed to serve a particular communication goal.
 
     - content: |
-        ## Colour rules
+        ### Colour rules
 
       notes: |
 
@@ -112,24 +109,36 @@ slides:
         The key rule  for the use of colour in data visulizsation, luminance contrast is needed. Pairing black and white leads to the biggest contrast in brightness. The smaller the graphic we are dealing with, the greater the contrast we need. Likewise if our graphic is large it's not quite anything goes but you have a lot more leeway. 
 
         We also use luminance contrast as a way to manage the viewers attention.
+
         The aspects of our visualization with the highest contrast is where our attention will be drawn first.  Likewise features with lower contrast will be comparatively less noticeable.
 
         It helps to think of luminance contrast as as finite resource. We only have so much we can spend on our graphic, so we should think wisely about what features we want to invest in.
 
-    - content: |
-        ## Avoid Oversaturation
+        A general rule is there should be a ratio a luminance ratio of 3:1 between text or graphics to the background 
 
+        WC3 0.299 * R + 0.587 * G + 0.114 * B
+
+
+    - content: |
+        ### Avoid Oversaturation
+        ![Argh](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/7762.bar1.png){width="200"} 
+
+        ![Better](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/2465.bar2.png){width="400"}
+      
       notes: |
+
+
+
         When we look at a graphic with too much saturated colour, it can be almost painful. 
 
-        Being selective with saturated colours lets us emphasis and hi light aspects more easily. 
+        Using muted colours is alot easier on our eyes, particularly for anything thats going to displayed on a screen.
 
+        Being selective with saturated colours lets us emphasis and hi light aspects of our data more easily. Our eyes focus on differences in saturation, rather than absolute values.  Allowing for a greater range in saturation will let things pop out more. 
 
-
-      notes: |
+        When dealing with smaller aspects of a graph, such as markers on a time series, we can be more liberal with the use of saturated colour without making our graph too garish. Likewise with small symbols we can should boost the luminance contrast. 
 
     - content: |
-        ## Colour Coding Information
+        ### Colour Coding Information
 
       
       notes: |
@@ -137,10 +146,12 @@ slides:
 
         There are strong limits on how many distinct colours can be used on a graphic so a viewer can reliably understand what each colour is encoding. A number of different numbers have been reported between 6 and 12. The more colours we have the less easily we can distringuish between them, it gets easier to confuse one colour for another.
 
+        If we are using soley grey scale colours we need to limit ourselves to four colours. 
+
 
 
     - content: |
-        ## Colour maps/palettes
+        ### Colour maps/palettes
 
       notes: |
 
@@ -175,16 +186,20 @@ slides:
         Matplotlib has changed default colour map, see here for a [talk](https://www.youtube.com/watch?v=xAoljeRJ3lU) on why 
 
     - content: |
-        ## The Rainbow Colourmap
-        ![Don't use this](http://i.stack.imgur.com/uAyax.png)
+        ### The Rainbow Colourmap
+        ![Don't use this](http://i.stack.imgur.com/uAyax.png){: .center-aligned height="400"}   
 
     - content: |
-        ## Perceptually iniform colourmaps
-        ![Isn't this better!](http://pong.tamu.edu/~kthyng/movies/txla_plots/salt/2010-07-30T00.png)
+        ### Perceptually Uniform colourmaps
+        ![Isn't this better!](http://pong.tamu.edu/~kthyng/movies/txla_plots/salt/2010-07-30T00.png){: .center-aligned height="400"}   
 
     - content: |
-        ## Background Colour
-        Grey or White?
+        ### Background Colour - Grey or White?
+        ![Hadley Wickham](http://i.stack.imgur.com/4pNJl.png){: .center-aligned height="400"}
+
+    - content: | 
+        ### Background Colour - Grey or White?
+        ![Nate Silver](http://i.stack.imgur.com/CrO7k.png){: .center-aligned height="400"}    
 
       notes: |
         May seem like a trite question
@@ -196,6 +211,7 @@ slides:
         Reduced screen glare
 
         Alot Colour maps been designed with a white background (for printing) in mind. Their perceptual properties will differ against a darker background.
+
         Also using a white background allows you to optimise a graph for both electronic display and printing, rather than having to prepare a different printer-friendly version.
 
 

@@ -98,7 +98,7 @@ slides:
 
     - content: |
         ## New Insights - Anscombes quartet 
-        ![Statistics for the quartet](images/anscombes_table.png){:height="400"}
+        ![Statistics for the quartet](images/anscombes_table.png){:height="300"}
 
       notes: |
         Pictured on the slide are the graphs of four data sets called Anscombes quartet. Each data set has the same mean and standard deviation, along with variance, correlation and linear regression. So if we were to solely look at the numeric summary statistics  of this data, we could come to the conclusion that they are pretty similar data sets. But by plotting them we can quickly see there are some big differences between the different data sets.

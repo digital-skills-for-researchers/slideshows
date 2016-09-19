@@ -1,32 +1,27 @@
 ---
 layout: slideshow
-title: Introduction to Programming with Python
+title: Perception and Visualization
 slides:
 
 
     - content: |
-        ## The Science of Perception and Visualization
+        ##  Perception and Visualization
 
         + Human perception important aspect of visualization
         + Pre attentive processing: low level visual system rapidly processes certain basic features of an image (<200 ms).
+        + Post attentive processing: what happens to our visual representation of an object afer we stop looking at it
 
         
 
       notes: |
         To make more effective visualizations its helful to understand how people process visual information. This is quite a broad field so we have a brief look at perceptual procesing, how people process visual information and build a representation of what they are seeing. 
 
-        
-        Do this without thinking. 
-        Variety of theories for how and why.
-        
-
-        For further reading on the different theories see
 
     - content: |
 
-        ## The Science of Perception and Visualization
+        ## Pre attentive Processing
 
-        Pre attentive Processing
+        
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/colour_P.gif)   ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/colour_A.gif)
 
       notes: |
@@ -40,7 +35,7 @@ slides:
 
         There are certain features that, when we look at something, we notice very quickly, like shape, colour and orientation.
 
-         Its no coincidence that alot of the features we use in visualization are objects and distinctions we pre-attentively process.
+        Its no coincidence that alot of the features we use in visualization are objects and distinctions we pre-attentively process.
 
 
 
@@ -48,12 +43,15 @@ slides:
        
 
     - content: |
+
+        ## Pre attentive Processing
+
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/shape_A.gif) ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/shape_P.gif)   
 
     - content: |
 
-        ## Pre attentive Processing
-        Conjunction
+        ## Pre Attentive Processing
+        ### Conjunction
 
         
         ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_A.gif)   ![alt text](https://www.csc.ncsu.edu/faculty/healey/PP/figs/conjoin_P.gif)
@@ -63,7 +61,7 @@ slides:
         
 
     - content: |
-        ## Post attentive visualization 
+        ## Post Attentive Processing 
 
       notes: |
         What happens after that initial glance at something if we go and look at something else?
@@ -73,7 +71,7 @@ slides:
 
     - content: |
         ## Post attentive visualization 
-        Change blindess
+        ### Change blindess
         ![Spot the difference!](https://res.cloudinary.com/vayner/image/upload/v1458296601/braindecoder/rebelmouse--1882005548.gif)
  
       notes: |  
