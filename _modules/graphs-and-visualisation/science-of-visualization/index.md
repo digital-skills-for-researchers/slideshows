@@ -70,8 +70,8 @@ slides:
         If we are pay close attention to a graphic and try and search for features and information, post attentively searching, finding what we are looking for takes as long or longer as the first, pre attentive, glance. 
 
     - content: |
-        ## Post attentive visualization 
         ### Change blindess
+
         ![Spot the difference!](https://res.cloudinary.com/vayner/image/upload/v1458296601/braindecoder/rebelmouse--1882005548.gif)
  
       notes: |  
@@ -85,8 +85,8 @@ slides:
 
 
     - content: |
-        ## Post attentive visualization 
-        + Change blindess
+        ### Change blindess
+        
         ![Spot the difference!](https://www.csc.ncsu.edu/faculty/healey/HTML_papers/NPV/figs/sphinx.jpg)
 
 

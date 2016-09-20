@@ -31,13 +31,15 @@ slides:
         ### Modelling Colour
 
         * RGB  Colour Model
-        * Represents colour as a triple (R,G,B)
-        * What most displays use 
-        * Device independent implementation
+
 
         ![RGB Cube](https://upload.wikimedia.org/wikipedia/commons/a/af/RGB_color_solid_cube.png){: .center-aligned height="400"} 
 
       notes: |
+
+        * Represents colour as a triple (R,G,B)
+        * What most displays use 
+        * Device independent implementation
 
         The colour model you are most likely to be familiar with is the RGB model. In the RBG model we represent colour a a triple of three numbers, with one number for each of Red, Green and Blue.
 
@@ -103,7 +105,9 @@ slides:
         When adding colour to a graph, think what is the purpose of this colour
 
     - content: |
-        ## Showing Detail
+        ### Showing Detail
+
+        ![The use of luminance contrast](http://colorusage.arc.nasa.gov/assets/non_mac/percept_hier.jpg)
 
       notes: |
         The key rule  for the use of colour in data visulizsation, luminance contrast is needed. Pairing black and white leads to the biggest contrast in brightness. The smaller the graphic we are dealing with, the greater the contrast we need. Likewise if our graphic is large it's not quite anything goes but you have a lot more leeway. 
@@ -121,10 +125,10 @@ slides:
 
     - content: |
         ### Avoid Oversaturation
-        ![Argh](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/7762.bar1.png){width="200"} 
 
-        ![Better](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/2465.bar2.png){width="400"}
-      
+        - ![Argh](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/7762.bar1.png){:height="200"} 
+        - ![Better](http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/tim_5F00_brock.Maria_5F00_Blogs.Spring_5F00_2016/2465.bar2.png){:height="200"}
+        {:.horizontal-list}   
       notes: |
 
 
@@ -140,6 +144,8 @@ slides:
     - content: |
         ### Colour Coding Information
 
+        ![Google Maps](http://edwardtufte.com.s3.amazonaws.com/Thinking%20Eye/DCtraffic.gif){:height="400"}
+
       
       notes: |
         A key function of the use of colour in data viz is to encode information. First use is to enforce distinctness between categories of data, so that we can distinguish between different categories. The second is learnability, that the viewer comes to understand that one colour indicates a particular category of data. 
@@ -148,11 +154,22 @@ slides:
 
         If we are using soley grey scale colours we need to limit ourselves to four colours. 
 
+        content rich, design straightforward 
+        intense 
+        subtle and effective with color 
+        rich in typographic information 
+        luscious with multiple layers of micro/macro information, 
+        a typographic layer + a symbol layer + a data-map layer 
+        calm but clear scale bar always present (avoids the dequantification found in lots of datviz stuff) 
+        free of chartjunk and optical clutter 
+        acommodating a diversity of users.
+
 
 
     - content: |
         ### Colour maps/palettes
 
+        ![Example Colour Maps](https://au.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/34087/versions/2/screenshot.jpg){:height="400"}
       notes: |
 
         How we we choose a effective colour palette for our graphs

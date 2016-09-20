@@ -63,7 +63,8 @@ slides:
     - content: |
 
         ### Avoid distortion
-
+        ![Bad]()
+        ![Better]()
 
     - content: |
 
